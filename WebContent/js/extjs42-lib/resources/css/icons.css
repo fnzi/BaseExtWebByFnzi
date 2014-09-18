@@ -1,0 +1,82 @@
+/**
+ * 
+ */
+
+/**
+ * 箭头刷新（普通）
+ */
+.arrow_refresh{
+	background-image:url(../images/icons/arrow_refresh.png) !important;
+}
+/**
+ * 箭头刷新（小）
+ */
+.arrow_refresh_small{
+	background-image:url(../images/icons/arrow_refresh_small.png) !important;
+}
+/**
+ * 箭头缩小/还原
+ */
+.arrow_in{
+	background-image:url(../images/icons/arrow_in.png) !important;
+}
+/**
+ * 箭头放大/满屏
+ */
+.arrow_out{
+	background-image:url(../images/icons/arrow_out.png) !important;
+}
+/**
+ * 应用边栏列表
+ */
+.application_side_list{
+	background-image:url(../images/icons/application_side_list.png) !important;
+}
+/**
+ * 应用边栏树
+ */
+.application_side_tree{
+	background-image:url(../images/icons/application_side_tree.png) !important;
+}
+/**
+ * 书
+ */
+.book{
+	background-image:url(../images/icons/book.png) !important;
+}
+/**
+ * 用户评论
+ */
+.user_comment{
+	background-image:url(../images/icons/user_comment.png) !important;
+}
+/**
+ * 添加
+ */
+.add{
+	background-image:url(../images/icons/add.png) !important;
+}
+/**
+ * 删除
+ */
+.cross{
+	background-image:url(../images/icons/cross.png) !important;
+}
+/**
+ * 修改记事
+ */
+.note_edit{
+	background-image:url(../images/icons/note_edit.png) !important;
+}
+/**
+ * 查询
+ */
+.find{
+	background-image:url(../images/icons/find.png) !important;
+}
+/**
+ * 预览
+ */
+.eye{
+	background-image:url(../images/icons/eye.png) !important;
+}

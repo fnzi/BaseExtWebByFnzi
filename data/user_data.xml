@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<db-data>
+	<user username="fnzi" password="123"></user>
+	<user username="user001" password="123"></user>
+	<user username="user002" password="123"></user>
+	<user username="user003" password="123"></user>
+	
+	<!--userLogin username="user003" password="123" address="tj"></userLogin>
+	<userLogin username="user003" password="123" address="tj"></userLogin>
+	<userLogin username="user003" password="123" address="tj"></userLogin>
+	
+	<student sid="001" name="s001"></student>
+	<student sid="001" name="s001"></student>
+	<student sid="001" name="s001"></student-->
+	
+	
+</db-data>

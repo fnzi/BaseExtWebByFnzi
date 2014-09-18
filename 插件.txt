@@ -1,0 +1,4 @@
+1. hibernate tools插件(Jboss Tools插件)
+2. EclEmma
+3. QuickSearch
+4. SVN

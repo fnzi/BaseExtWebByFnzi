@@ -1,0 +1,1231 @@
+2014/09/15 22:21:14.479 INFO Loading properties file from class path resource [jdbc.properties]
+2014/09/15 22:21:15.320 INFO HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014/09/15 22:21:15.338 INFO HHH000412: Hibernate Core {4.2.15.Final}
+2014/09/15 22:21:15.342 INFO HHH000206: hibernate.properties not found
+2014/09/15 22:21:15.345 INFO HHH000021: Bytecode provider name : javassist
+2014/09/15 22:21:16.853 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014/09/15 22:21:17.128 INFO HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014/09/15 22:21:17.150 INFO HHH000397: Using ASTQueryTranslatorFactory
+2014/09/15 22:21:17.829 INFO HHH000228: Running hbm2ddl schema update
+2014/09/15 22:21:17.830 INFO HHH000102: Fetching database metadata
+2014/09/15 22:21:17.859 INFO HHH000396: Updating schema
+2014/09/15 22:21:17.971 INFO HHH000261: Table found: test.t_user
+2014/09/15 22:21:17.971 INFO HHH000037: Columns: [uid, username, password]
+2014/09/15 22:21:17.972 INFO HHH000108: Foreign keys: []
+2014/09/15 22:21:17.972 INFO HHH000126: Indexes: [primary]
+2014/09/15 22:21:17.997 INFO HHH000261: Table found: test.ref_role_function
+2014/09/15 22:21:17.997 INFO HHH000037: Columns: [fid, rfid, rid]
+2014/09/15 22:21:17.997 INFO HHH000108: Foreign keys: [fk_32bl6av3fmkmafshu43eylek4, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 22:21:17.997 INFO HHH000126: Indexes: [fk_32bl6av3fmkmafshu43eylek4, primary, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 22:21:18.005 INFO HHH000261: Table found: test.tab_function
+2014/09/15 22:21:18.005 INFO HHH000037: Columns: [fid, forder, level, pid, furl, fname]
+2014/09/15 22:21:18.005 INFO HHH000108: Foreign keys: [fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 22:21:18.005 INFO HHH000126: Indexes: [primary, fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 22:21:18.016 INFO HHH000261: Table found: test.tab_role
+2014/09/15 22:21:18.016 INFO HHH000037: Columns: [endtime, starttime, rid, rname]
+2014/09/15 22:21:18.016 INFO HHH000108: Foreign keys: []
+2014/09/15 22:21:18.016 INFO HHH000126: Indexes: [primary]
+2014/09/15 22:21:18.032 INFO HHH000261: Table found: test.tab_user
+2014/09/15 22:21:18.032 INFO HHH000037: Columns: [endtime, uid, username, starttime, rid, password]
+2014/09/15 22:21:18.032 INFO HHH000108: Foreign keys: [fk_t3pvigtad7pmlvc2ub3p1i5dr]
+2014/09/15 22:21:18.032 INFO HHH000126: Indexes: [fk_t3pvigtad7pmlvc2ub3p1i5dr, primary]
+2014/09/15 22:21:18.047 INFO HHH000232: Schema update complete
+2014/09/15 22:21:21.098 INFO ProcessEngine default created
+2014/09/15 22:21:21.485 INFO Processing resource test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml
+2014/09/15 22:21:25.811 INFO Shutting down 'springDbPool' pool immediately [Shutdown Hook]
+2014/09/15 22:21:25.818 INFO Stopping Prototyper thread
+2014/09/15 22:21:25.818 INFO Stopping HouseKeeper thread
+2014/09/15 22:23:21.597 INFO Loading properties file from class path resource [jdbc.properties]
+2014/09/15 22:23:21.818 INFO HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014/09/15 22:23:21.823 INFO HHH000412: Hibernate Core {4.2.15.Final}
+2014/09/15 22:23:21.824 INFO HHH000206: hibernate.properties not found
+2014/09/15 22:23:21.825 INFO HHH000021: Bytecode provider name : javassist
+2014/09/15 22:23:22.511 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014/09/15 22:23:22.632 INFO HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014/09/15 22:23:22.636 INFO HHH000397: Using ASTQueryTranslatorFactory
+2014/09/15 22:23:22.819 INFO HHH000228: Running hbm2ddl schema update
+2014/09/15 22:23:22.820 INFO HHH000102: Fetching database metadata
+2014/09/15 22:23:22.841 INFO HHH000396: Updating schema
+2014/09/15 22:23:22.918 INFO HHH000261: Table found: test.t_user
+2014/09/15 22:23:22.918 INFO HHH000037: Columns: [uid, username, password]
+2014/09/15 22:23:22.918 INFO HHH000108: Foreign keys: []
+2014/09/15 22:23:22.918 INFO HHH000126: Indexes: [primary]
+2014/09/15 22:23:22.937 INFO HHH000261: Table found: test.ref_role_function
+2014/09/15 22:23:22.937 INFO HHH000037: Columns: [fid, rfid, rid]
+2014/09/15 22:23:22.938 INFO HHH000108: Foreign keys: [fk_32bl6av3fmkmafshu43eylek4, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 22:23:22.938 INFO HHH000126: Indexes: [fk_32bl6av3fmkmafshu43eylek4, primary, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 22:23:22.951 INFO HHH000261: Table found: test.tab_function
+2014/09/15 22:23:22.951 INFO HHH000037: Columns: [fid, forder, level, pid, furl, fname]
+2014/09/15 22:23:22.951 INFO HHH000108: Foreign keys: [fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 22:23:22.951 INFO HHH000126: Indexes: [primary, fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 22:23:22.957 INFO HHH000261: Table found: test.tab_role
+2014/09/15 22:23:22.957 INFO HHH000037: Columns: [endtime, starttime, rid, rname]
+2014/09/15 22:23:22.957 INFO HHH000108: Foreign keys: []
+2014/09/15 22:23:22.957 INFO HHH000126: Indexes: [primary]
+2014/09/15 22:23:22.963 INFO HHH000261: Table found: test.tab_user
+2014/09/15 22:23:22.963 INFO HHH000037: Columns: [endtime, uid, username, starttime, rid, password]
+2014/09/15 22:23:22.964 INFO HHH000108: Foreign keys: [fk_t3pvigtad7pmlvc2ub3p1i5dr]
+2014/09/15 22:23:22.964 INFO HHH000126: Indexes: [fk_t3pvigtad7pmlvc2ub3p1i5dr, primary]
+2014/09/15 22:23:22.964 INFO HHH000232: Schema update complete
+2014/09/15 22:23:24.259 INFO ProcessEngine default created
+2014/09/15 22:23:24.621 INFO Processing resource test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml
+2014/09/15 22:23:25.833 INFO Shutting down 'springDbPool' pool immediately [Shutdown Hook]
+2014/09/15 22:23:25.838 INFO Stopping Prototyper thread
+2014/09/15 22:23:25.839 INFO Stopping HouseKeeper thread
+2014/09/15 22:25:10.565 INFO Loading properties file from class path resource [jdbc.properties]
+2014/09/15 22:25:10.747 INFO HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014/09/15 22:25:10.751 INFO HHH000412: Hibernate Core {4.2.15.Final}
+2014/09/15 22:25:10.753 INFO HHH000206: hibernate.properties not found
+2014/09/15 22:25:10.754 INFO HHH000021: Bytecode provider name : javassist
+2014/09/15 22:25:11.544 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014/09/15 22:25:11.707 INFO HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014/09/15 22:25:11.711 INFO HHH000397: Using ASTQueryTranslatorFactory
+2014/09/15 22:25:11.894 INFO HHH000228: Running hbm2ddl schema update
+2014/09/15 22:25:11.895 INFO HHH000102: Fetching database metadata
+2014/09/15 22:25:11.916 INFO HHH000396: Updating schema
+2014/09/15 22:25:11.966 INFO HHH000261: Table found: test.t_user
+2014/09/15 22:25:11.966 INFO HHH000037: Columns: [uid, username, password]
+2014/09/15 22:25:11.967 INFO HHH000108: Foreign keys: []
+2014/09/15 22:25:11.967 INFO HHH000126: Indexes: [primary]
+2014/09/15 22:25:11.974 INFO HHH000261: Table found: test.ref_role_function
+2014/09/15 22:25:11.974 INFO HHH000037: Columns: [fid, rfid, rid]
+2014/09/15 22:25:11.975 INFO HHH000108: Foreign keys: [fk_32bl6av3fmkmafshu43eylek4, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 22:25:11.975 INFO HHH000126: Indexes: [fk_32bl6av3fmkmafshu43eylek4, primary, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 22:25:11.981 INFO HHH000261: Table found: test.tab_function
+2014/09/15 22:25:11.982 INFO HHH000037: Columns: [fid, forder, level, pid, furl, fname]
+2014/09/15 22:25:11.982 INFO HHH000108: Foreign keys: [fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 22:25:11.982 INFO HHH000126: Indexes: [primary, fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 22:25:11.988 INFO HHH000261: Table found: test.tab_role
+2014/09/15 22:25:11.988 INFO HHH000037: Columns: [endtime, starttime, rid, rname]
+2014/09/15 22:25:11.988 INFO HHH000108: Foreign keys: []
+2014/09/15 22:25:11.988 INFO HHH000126: Indexes: [primary]
+2014/09/15 22:25:11.994 INFO HHH000261: Table found: test.tab_user
+2014/09/15 22:25:11.994 INFO HHH000037: Columns: [endtime, uid, username, starttime, rid, password]
+2014/09/15 22:25:11.994 INFO HHH000108: Foreign keys: [fk_t3pvigtad7pmlvc2ub3p1i5dr]
+2014/09/15 22:25:11.994 INFO HHH000126: Indexes: [fk_t3pvigtad7pmlvc2ub3p1i5dr, primary]
+2014/09/15 22:25:11.995 INFO HHH000232: Schema update complete
+2014/09/15 22:25:13.350 INFO ProcessEngine default created
+2014/09/15 22:25:13.840 INFO Processing resource test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml
+2014/09/15 22:25:14.996 INFO Shutting down 'springDbPool' pool immediately [Shutdown Hook]
+2014/09/15 22:25:14.999 INFO Stopping Prototyper thread
+2014/09/15 22:25:15.000 INFO Stopping HouseKeeper thread
+2014/09/15 22:27:30.444 INFO Loading properties file from class path resource [jdbc.properties]
+2014/09/15 22:27:30.669 INFO HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014/09/15 22:27:30.675 INFO HHH000412: Hibernate Core {4.2.15.Final}
+2014/09/15 22:27:30.677 INFO HHH000206: hibernate.properties not found
+2014/09/15 22:27:30.678 INFO HHH000021: Bytecode provider name : javassist
+2014/09/15 22:27:31.482 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014/09/15 22:27:31.676 INFO HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014/09/15 22:27:31.681 INFO HHH000397: Using ASTQueryTranslatorFactory
+2014/09/15 22:27:31.908 INFO HHH000228: Running hbm2ddl schema update
+2014/09/15 22:27:31.908 INFO HHH000102: Fetching database metadata
+2014/09/15 22:27:31.927 INFO HHH000396: Updating schema
+2014/09/15 22:27:31.953 INFO HHH000261: Table found: test.t_user
+2014/09/15 22:27:31.954 INFO HHH000037: Columns: [uid, username, password]
+2014/09/15 22:27:31.954 INFO HHH000108: Foreign keys: []
+2014/09/15 22:27:31.954 INFO HHH000126: Indexes: [primary]
+2014/09/15 22:27:31.962 INFO HHH000261: Table found: test.ref_role_function
+2014/09/15 22:27:31.962 INFO HHH000037: Columns: [fid, rfid, rid]
+2014/09/15 22:27:31.962 INFO HHH000108: Foreign keys: [fk_32bl6av3fmkmafshu43eylek4, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 22:27:31.962 INFO HHH000126: Indexes: [fk_32bl6av3fmkmafshu43eylek4, primary, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 22:27:31.969 INFO HHH000261: Table found: test.tab_function
+2014/09/15 22:27:31.969 INFO HHH000037: Columns: [fid, forder, level, pid, furl, fname]
+2014/09/15 22:27:31.969 INFO HHH000108: Foreign keys: [fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 22:27:31.969 INFO HHH000126: Indexes: [primary, fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 22:27:31.975 INFO HHH000261: Table found: test.tab_role
+2014/09/15 22:27:31.976 INFO HHH000037: Columns: [endtime, starttime, rid, rname]
+2014/09/15 22:27:31.976 INFO HHH000108: Foreign keys: []
+2014/09/15 22:27:31.976 INFO HHH000126: Indexes: [primary]
+2014/09/15 22:27:31.985 INFO HHH000261: Table found: test.tab_user
+2014/09/15 22:27:31.985 INFO HHH000037: Columns: [endtime, uid, username, starttime, rid, password]
+2014/09/15 22:27:31.985 INFO HHH000108: Foreign keys: [fk_t3pvigtad7pmlvc2ub3p1i5dr]
+2014/09/15 22:27:31.986 INFO HHH000126: Indexes: [fk_t3pvigtad7pmlvc2ub3p1i5dr, primary]
+2014/09/15 22:27:31.989 INFO HHH000232: Schema update complete
+2014/09/15 22:27:33.626 INFO ProcessEngine default created
+2014/09/15 22:28:00.216 INFO Processing resource test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml
+2014/09/15 22:28:45.128 INFO Shutting down 'springDbPool' pool immediately [Shutdown Hook]
+2014/09/15 22:28:45.135 INFO Stopping Prototyper thread
+2014/09/15 22:28:45.139 INFO Stopping HouseKeeper thread
+2014/09/15 22:49:43.791 INFO Loading properties file from class path resource [jdbc.properties]
+2014/09/15 22:49:43.995 INFO HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014/09/15 22:49:44.000 INFO HHH000412: Hibernate Core {4.2.15.Final}
+2014/09/15 22:49:44.002 INFO HHH000206: hibernate.properties not found
+2014/09/15 22:49:44.003 INFO HHH000021: Bytecode provider name : javassist
+2014/09/15 22:49:44.821 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014/09/15 22:49:44.943 INFO HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014/09/15 22:49:44.947 INFO HHH000397: Using ASTQueryTranslatorFactory
+2014/09/15 22:49:45.145 INFO HHH000228: Running hbm2ddl schema update
+2014/09/15 22:49:45.145 INFO HHH000102: Fetching database metadata
+2014/09/15 22:49:45.167 INFO HHH000396: Updating schema
+2014/09/15 22:49:45.188 INFO HHH000261: Table found: test.t_user
+2014/09/15 22:49:45.188 INFO HHH000037: Columns: [uid, username, password]
+2014/09/15 22:49:45.188 INFO HHH000108: Foreign keys: []
+2014/09/15 22:49:45.188 INFO HHH000126: Indexes: [primary]
+2014/09/15 22:49:45.196 INFO HHH000261: Table found: test.ref_role_function
+2014/09/15 22:49:45.196 INFO HHH000037: Columns: [fid, rfid, rid]
+2014/09/15 22:49:45.196 INFO HHH000108: Foreign keys: [fk_32bl6av3fmkmafshu43eylek4, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 22:49:45.196 INFO HHH000126: Indexes: [fk_32bl6av3fmkmafshu43eylek4, primary, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 22:49:45.205 INFO HHH000261: Table found: test.tab_function
+2014/09/15 22:49:45.205 INFO HHH000037: Columns: [fid, forder, level, pid, furl, fname]
+2014/09/15 22:49:45.205 INFO HHH000108: Foreign keys: [fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 22:49:45.205 INFO HHH000126: Indexes: [primary, fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 22:49:45.212 INFO HHH000261: Table found: test.tab_role
+2014/09/15 22:49:45.212 INFO HHH000037: Columns: [endtime, starttime, rid, rname]
+2014/09/15 22:49:45.212 INFO HHH000108: Foreign keys: []
+2014/09/15 22:49:45.212 INFO HHH000126: Indexes: [primary]
+2014/09/15 22:49:45.219 INFO HHH000261: Table found: test.tab_user
+2014/09/15 22:49:45.219 INFO HHH000037: Columns: [endtime, uid, username, starttime, rid, password]
+2014/09/15 22:49:45.219 INFO HHH000108: Foreign keys: [fk_t3pvigtad7pmlvc2ub3p1i5dr]
+2014/09/15 22:49:45.219 INFO HHH000126: Indexes: [fk_t3pvigtad7pmlvc2ub3p1i5dr, primary]
+2014/09/15 22:49:45.220 INFO HHH000232: Schema update complete
+2014/09/15 22:49:46.652 INFO ProcessEngine default created
+2014/09/15 22:49:47.021 INFO Processing resource test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml
+2014/09/15 22:49:48.574 INFO Shutting down 'springDbPool' pool immediately [Shutdown Hook]
+2014/09/15 22:49:48.577 INFO Stopping Prototyper thread
+2014/09/15 22:49:48.578 INFO Stopping HouseKeeper thread
+2014/09/15 22:57:24.000 INFO Loading properties file from class path resource [jdbc.properties]
+2014/09/15 22:57:24.190 INFO HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014/09/15 22:57:24.195 INFO HHH000412: Hibernate Core {4.2.15.Final}
+2014/09/15 22:57:24.196 INFO HHH000206: hibernate.properties not found
+2014/09/15 22:57:24.197 INFO HHH000021: Bytecode provider name : javassist
+2014/09/15 22:57:24.864 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014/09/15 22:57:24.982 INFO HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014/09/15 22:57:24.985 INFO HHH000397: Using ASTQueryTranslatorFactory
+2014/09/15 22:57:25.238 INFO HHH000228: Running hbm2ddl schema update
+2014/09/15 22:57:25.238 INFO HHH000102: Fetching database metadata
+2014/09/15 22:57:25.268 INFO HHH000396: Updating schema
+2014/09/15 22:57:25.299 INFO HHH000261: Table found: test.t_user
+2014/09/15 22:57:25.299 INFO HHH000037: Columns: [uid, username, password]
+2014/09/15 22:57:25.300 INFO HHH000108: Foreign keys: []
+2014/09/15 22:57:25.300 INFO HHH000126: Indexes: [primary]
+2014/09/15 22:57:25.309 INFO HHH000261: Table found: test.ref_role_function
+2014/09/15 22:57:25.310 INFO HHH000037: Columns: [fid, rfid, rid]
+2014/09/15 22:57:25.310 INFO HHH000108: Foreign keys: [fk_32bl6av3fmkmafshu43eylek4, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 22:57:25.310 INFO HHH000126: Indexes: [fk_32bl6av3fmkmafshu43eylek4, primary, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 22:57:25.319 INFO HHH000261: Table found: test.tab_function
+2014/09/15 22:57:25.319 INFO HHH000037: Columns: [fid, forder, level, pid, furl, fname]
+2014/09/15 22:57:25.319 INFO HHH000108: Foreign keys: [fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 22:57:25.319 INFO HHH000126: Indexes: [primary, fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 22:57:25.327 INFO HHH000261: Table found: test.tab_role
+2014/09/15 22:57:25.327 INFO HHH000037: Columns: [endtime, starttime, rid, rname]
+2014/09/15 22:57:25.328 INFO HHH000108: Foreign keys: []
+2014/09/15 22:57:25.328 INFO HHH000126: Indexes: [primary]
+2014/09/15 22:57:25.336 INFO HHH000261: Table found: test.tab_user
+2014/09/15 22:57:25.336 INFO HHH000037: Columns: [endtime, uid, username, starttime, rid, password]
+2014/09/15 22:57:25.336 INFO HHH000108: Foreign keys: [fk_t3pvigtad7pmlvc2ub3p1i5dr]
+2014/09/15 22:57:25.336 INFO HHH000126: Indexes: [fk_t3pvigtad7pmlvc2ub3p1i5dr, primary]
+2014/09/15 22:57:25.337 INFO HHH000232: Schema update complete
+2014/09/15 22:57:25.861 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2014/09/15 22:57:26.659 DEBUG Opening JDBC Connection
+2014/09/15 22:57:26.702 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [11112467(com.mysql.jdbc.JDBC4Connection@31db04)]]
+2014/09/15 22:57:26.704 INFO ProcessEngine default created
+2014/09/15 22:57:26.892 DEBUG Opening JDBC Connection
+2014/09/15 22:57:26.895 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [4435274(com.mysql.jdbc.JDBC4Connection@125d568)]]
+2014/09/15 22:57:27.092 INFO Processing resource test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml
+2014/09/15 22:57:27.384 DEBUG Opening JDBC Connection
+2014/09/15 22:57:27.440 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [801860(com.mysql.jdbc.JDBC4Connection@148a8e6)]]
+2014/09/15 22:57:27.483 DEBUG Opening JDBC Connection
+2014/09/15 22:57:27.505 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [30507140(com.mysql.jdbc.JDBC4Connection@14c7deb)]]
+2014/09/15 22:57:27.639 DEBUG Opening JDBC Connection
+2014/09/15 22:57:27.641 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [1876483(com.mysql.jdbc.JDBC4Connection@1d07c3f)]]
+2014/09/15 22:57:27.645 DEBUG Opening JDBC Connection
+2014/09/15 22:57:27.647 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [2176710(com.mysql.jdbc.JDBC4Connection@933cba)]]
+2014/09/15 22:57:27.650 DEBUG Opening JDBC Connection
+2014/09/15 22:57:27.663 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [4679956(com.mysql.jdbc.JDBC4Connection@43b5bb)]]
+2014/09/15 22:57:27.678 DEBUG Opening JDBC Connection
+2014/09/15 22:57:27.680 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [290876(com.mysql.jdbc.JDBC4Connection@31db04)]]
+2014/09/15 22:57:27.683 DEBUG Opening JDBC Connection
+2014/09/15 22:57:27.685 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [17923264(com.mysql.jdbc.JDBC4Connection@148a8e6)]]
+2014/09/15 22:57:27.689 DEBUG Opening JDBC Connection
+2014/09/15 22:57:27.690 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [12338315(com.mysql.jdbc.JDBC4Connection@14c7deb)]]
+2014/09/15 22:57:27.693 DEBUG Opening JDBC Connection
+2014/09/15 22:57:27.710 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [3166926(com.mysql.jdbc.JDBC4Connection@8c5488)]]
+2014/09/15 22:57:27.736 DEBUG Opening JDBC Connection
+2014/09/15 22:57:27.739 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [24646280(com.mysql.jdbc.JDBC4Connection@8b60a)]]
+2014/09/15 22:57:28.242 INFO Shutting down 'springDbPool' pool immediately [Shutdown Hook]
+2014/09/15 22:57:28.245 INFO Stopping Prototyper thread
+2014/09/15 22:57:28.245 INFO Stopping HouseKeeper thread
+2014/09/15 23:05:13.855 INFO Loading properties file from class path resource [jdbc.properties]
+2014/09/15 23:05:14.533 INFO HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014/09/15 23:05:14.544 INFO HHH000412: Hibernate Core {4.2.15.Final}
+2014/09/15 23:05:14.547 INFO HHH000206: hibernate.properties not found
+2014/09/15 23:05:14.549 INFO HHH000021: Bytecode provider name : javassist
+2014/09/15 23:05:16.391 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014/09/15 23:05:16.669 INFO HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014/09/15 23:05:16.695 INFO HHH000397: Using ASTQueryTranslatorFactory
+2014/09/15 23:05:17.180 INFO HHH000228: Running hbm2ddl schema update
+2014/09/15 23:05:17.180 INFO HHH000102: Fetching database metadata
+2014/09/15 23:05:17.202 INFO HHH000396: Updating schema
+2014/09/15 23:05:17.282 INFO HHH000261: Table found: test.t_user
+2014/09/15 23:05:17.283 INFO HHH000037: Columns: [uid, username, password]
+2014/09/15 23:05:17.283 INFO HHH000108: Foreign keys: []
+2014/09/15 23:05:17.283 INFO HHH000126: Indexes: [primary]
+2014/09/15 23:05:17.319 INFO HHH000261: Table found: test.ref_role_function
+2014/09/15 23:05:17.319 INFO HHH000037: Columns: [fid, rfid, rid]
+2014/09/15 23:05:17.320 INFO HHH000108: Foreign keys: [fk_32bl6av3fmkmafshu43eylek4, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 23:05:17.320 INFO HHH000126: Indexes: [fk_32bl6av3fmkmafshu43eylek4, primary, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 23:05:17.361 INFO HHH000261: Table found: test.tab_function
+2014/09/15 23:05:17.361 INFO HHH000037: Columns: [fid, forder, level, pid, furl, fname]
+2014/09/15 23:05:17.361 INFO HHH000108: Foreign keys: [fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 23:05:17.361 INFO HHH000126: Indexes: [primary, fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 23:05:17.384 INFO HHH000261: Table found: test.tab_role
+2014/09/15 23:05:17.384 INFO HHH000037: Columns: [endtime, starttime, rid, rname]
+2014/09/15 23:05:17.384 INFO HHH000108: Foreign keys: []
+2014/09/15 23:05:17.384 INFO HHH000126: Indexes: [primary]
+2014/09/15 23:05:17.398 INFO HHH000261: Table found: test.tab_user
+2014/09/15 23:05:17.398 INFO HHH000037: Columns: [endtime, uid, username, starttime, rid, password]
+2014/09/15 23:05:17.398 INFO HHH000108: Foreign keys: [fk_t3pvigtad7pmlvc2ub3p1i5dr]
+2014/09/15 23:05:17.398 INFO HHH000126: Indexes: [fk_t3pvigtad7pmlvc2ub3p1i5dr, primary]
+2014/09/15 23:05:17.417 INFO HHH000232: Schema update complete
+2014/09/15 23:05:20.035 INFO ProcessEngine default created
+2014/09/15 23:05:20.433 INFO Processing resource test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml
+2014/09/15 23:05:22.246 INFO Shutting down 'springDbPool' pool immediately [Shutdown Hook]
+2014/09/15 23:05:22.254 INFO Stopping Prototyper thread
+2014/09/15 23:05:22.255 INFO Stopping HouseKeeper thread
+2014/09/15 23:09:26.834 INFO Loading properties file from class path resource [jdbc.properties]
+2014/09/15 23:09:27.674 INFO HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014/09/15 23:09:27.687 INFO HHH000412: Hibernate Core {4.2.15.Final}
+2014/09/15 23:09:27.692 INFO HHH000206: hibernate.properties not found
+2014/09/15 23:09:27.694 INFO HHH000021: Bytecode provider name : javassist
+2014/09/15 23:09:29.198 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014/09/15 23:09:29.564 INFO HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014/09/15 23:09:29.581 INFO HHH000397: Using ASTQueryTranslatorFactory
+2014/09/15 23:09:30.217 INFO HHH000228: Running hbm2ddl schema update
+2014/09/15 23:09:30.217 INFO HHH000102: Fetching database metadata
+2014/09/15 23:09:30.239 INFO HHH000396: Updating schema
+2014/09/15 23:09:30.317 INFO HHH000261: Table found: test.t_user
+2014/09/15 23:09:30.317 INFO HHH000037: Columns: [uid, username, password]
+2014/09/15 23:09:30.317 INFO HHH000108: Foreign keys: []
+2014/09/15 23:09:30.317 INFO HHH000126: Indexes: [primary]
+2014/09/15 23:09:30.343 INFO HHH000261: Table found: test.ref_role_function
+2014/09/15 23:09:30.343 INFO HHH000037: Columns: [fid, rfid, rid]
+2014/09/15 23:09:30.343 INFO HHH000108: Foreign keys: [fk_32bl6av3fmkmafshu43eylek4, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 23:09:30.343 INFO HHH000126: Indexes: [fk_32bl6av3fmkmafshu43eylek4, primary, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 23:09:30.357 INFO HHH000261: Table found: test.tab_function
+2014/09/15 23:09:30.357 INFO HHH000037: Columns: [fid, forder, level, pid, furl, fname]
+2014/09/15 23:09:30.357 INFO HHH000108: Foreign keys: [fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 23:09:30.357 INFO HHH000126: Indexes: [primary, fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 23:09:30.379 INFO HHH000261: Table found: test.tab_role
+2014/09/15 23:09:30.380 INFO HHH000037: Columns: [endtime, starttime, rid, rname]
+2014/09/15 23:09:30.380 INFO HHH000108: Foreign keys: []
+2014/09/15 23:09:30.380 INFO HHH000126: Indexes: [primary]
+2014/09/15 23:09:30.390 INFO HHH000261: Table found: test.tab_user
+2014/09/15 23:09:30.391 INFO HHH000037: Columns: [endtime, uid, username, starttime, rid, password]
+2014/09/15 23:09:30.391 INFO HHH000108: Foreign keys: [fk_t3pvigtad7pmlvc2ub3p1i5dr]
+2014/09/15 23:09:30.391 INFO HHH000126: Indexes: [fk_t3pvigtad7pmlvc2ub3p1i5dr, primary]
+2014/09/15 23:09:30.404 INFO HHH000232: Schema update complete
+2014/09/15 23:09:32.314 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2014/09/15 23:09:33.465 DEBUG Opening JDBC Connection
+2014/09/15 23:09:33.628 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [28699556(com.mysql.jdbc.JDBC4Connection@81933a)]]
+2014/09/15 23:09:33.632 INFO ProcessEngine default created
+2014/09/15 23:09:34.047 DEBUG Opening JDBC Connection
+2014/09/15 23:09:34.049 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [6006030(com.mysql.jdbc.JDBC4Connection@b173c3)]]
+2014/09/15 23:09:34.077 INFO Processing resource test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml
+2014/09/15 23:09:36.823 DEBUG Opening JDBC Connection
+2014/09/15 23:09:37.044 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [27473506(com.mysql.jdbc.JDBC4Connection@476914)]]
+2014/09/15 23:09:37.118 DEBUG Opening JDBC Connection
+2014/09/15 23:09:37.301 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [21506279(com.mysql.jdbc.JDBC4Connection@755866)]]
+2014/09/15 23:09:37.470 DEBUG Opening JDBC Connection
+2014/09/15 23:09:37.473 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [11438836(com.mysql.jdbc.JDBC4Connection@124d504)]]
+2014/09/15 23:09:37.477 DEBUG Opening JDBC Connection
+2014/09/15 23:09:37.479 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [5452358(com.mysql.jdbc.JDBC4Connection@9c939)]]
+2014/09/15 23:09:37.482 DEBUG Opening JDBC Connection
+2014/09/15 23:09:37.496 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [25831178(com.mysql.jdbc.JDBC4Connection@10936a1)]]
+2014/09/15 23:09:37.522 DEBUG Opening JDBC Connection
+2014/09/15 23:09:37.527 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [13631582(com.mysql.jdbc.JDBC4Connection@81933a)]]
+2014/09/15 23:09:37.531 DEBUG Opening JDBC Connection
+2014/09/15 23:09:37.533 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [19974377(com.mysql.jdbc.JDBC4Connection@476914)]]
+2014/09/15 23:09:37.538 DEBUG Opening JDBC Connection
+2014/09/15 23:09:37.540 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [12624208(com.mysql.jdbc.JDBC4Connection@755866)]]
+2014/09/15 23:09:37.544 DEBUG Opening JDBC Connection
+2014/09/15 23:09:37.588 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [21168328(com.mysql.jdbc.JDBC4Connection@1e867d6)]]
+2014/09/15 23:09:37.646 DEBUG Opening JDBC Connection
+2014/09/15 23:09:37.650 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [33522950(com.mysql.jdbc.JDBC4Connection@766ec3)]]
+2014/09/15 23:09:37.655 INFO Shutting down 'springDbPool' pool immediately [Shutdown Hook]
+2014/09/15 23:09:37.664 INFO Stopping Prototyper thread
+2014/09/15 23:09:37.664 INFO Stopping HouseKeeper thread
+2014/09/15 23:15:19.689 INFO Loading properties file from class path resource [jdbc.properties]
+2014/09/15 23:15:19.904 INFO HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014/09/15 23:15:19.909 INFO HHH000412: Hibernate Core {4.2.15.Final}
+2014/09/15 23:15:19.912 INFO HHH000206: hibernate.properties not found
+2014/09/15 23:15:19.914 INFO HHH000021: Bytecode provider name : javassist
+2014/09/15 23:15:20.706 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014/09/15 23:15:20.828 INFO HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014/09/15 23:15:20.832 INFO HHH000397: Using ASTQueryTranslatorFactory
+2014/09/15 23:15:21.026 INFO HHH000228: Running hbm2ddl schema update
+2014/09/15 23:15:21.026 INFO HHH000102: Fetching database metadata
+2014/09/15 23:15:21.049 INFO HHH000396: Updating schema
+2014/09/15 23:15:21.078 INFO HHH000261: Table found: test.t_user
+2014/09/15 23:15:21.078 INFO HHH000037: Columns: [uid, username, password]
+2014/09/15 23:15:21.078 INFO HHH000108: Foreign keys: []
+2014/09/15 23:15:21.078 INFO HHH000126: Indexes: [primary]
+2014/09/15 23:15:21.091 INFO HHH000261: Table found: test.ref_role_function
+2014/09/15 23:15:21.091 INFO HHH000037: Columns: [fid, rfid, rid]
+2014/09/15 23:15:21.091 INFO HHH000108: Foreign keys: [fk_32bl6av3fmkmafshu43eylek4, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 23:15:21.091 INFO HHH000126: Indexes: [fk_32bl6av3fmkmafshu43eylek4, primary, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 23:15:21.099 INFO HHH000261: Table found: test.tab_function
+2014/09/15 23:15:21.099 INFO HHH000037: Columns: [fid, forder, level, pid, furl, fname]
+2014/09/15 23:15:21.099 INFO HHH000108: Foreign keys: [fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 23:15:21.099 INFO HHH000126: Indexes: [primary, fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 23:15:21.105 INFO HHH000261: Table found: test.tab_role
+2014/09/15 23:15:21.105 INFO HHH000037: Columns: [endtime, starttime, rid, rname]
+2014/09/15 23:15:21.106 INFO HHH000108: Foreign keys: []
+2014/09/15 23:15:21.106 INFO HHH000126: Indexes: [primary]
+2014/09/15 23:15:21.112 INFO HHH000261: Table found: test.tab_user
+2014/09/15 23:15:21.112 INFO HHH000037: Columns: [endtime, uid, username, starttime, rid, password]
+2014/09/15 23:15:21.112 INFO HHH000108: Foreign keys: [fk_t3pvigtad7pmlvc2ub3p1i5dr]
+2014/09/15 23:15:21.112 INFO HHH000126: Indexes: [fk_t3pvigtad7pmlvc2ub3p1i5dr, primary]
+2014/09/15 23:15:21.113 INFO HHH000232: Schema update complete
+2014/09/15 23:15:21.675 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2014/09/15 23:15:22.479 DEBUG Opening JDBC Connection
+2014/09/15 23:15:22.524 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [20747567(com.mysql.jdbc.JDBC4Connection@666a53)]]
+2014/09/15 23:15:22.526 INFO ProcessEngine default created
+2014/09/15 23:15:22.740 DEBUG Opening JDBC Connection
+2014/09/15 23:15:22.743 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [14536088(com.mysql.jdbc.JDBC4Connection@1e4bece)]]
+2014/09/15 23:15:22.781 INFO Processing resource test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml
+2014/09/15 23:15:23.092 DEBUG Opening JDBC Connection
+2014/09/15 23:15:23.139 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [21447570(com.mysql.jdbc.JDBC4Connection@1a544a5)]]
+2014/09/15 23:15:23.206 DEBUG Opening JDBC Connection
+2014/09/15 23:15:23.231 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [9243153(com.mysql.jdbc.JDBC4Connection@18feca1)]]
+2014/09/15 23:15:23.391 DEBUG Opening JDBC Connection
+2014/09/15 23:15:23.393 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [19375260(com.mysql.jdbc.JDBC4Connection@1a82e92)]]
+2014/09/15 23:15:23.397 DEBUG Opening JDBC Connection
+2014/09/15 23:15:23.399 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [12128454(com.mysql.jdbc.JDBC4Connection@1fc6eed)]]
+2014/09/15 23:15:23.402 DEBUG Opening JDBC Connection
+2014/09/15 23:15:23.414 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [33350386(com.mysql.jdbc.JDBC4Connection@1978611)]]
+2014/09/15 23:15:23.429 DEBUG Opening JDBC Connection
+2014/09/15 23:15:23.431 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [24546058(com.mysql.jdbc.JDBC4Connection@666a53)]]
+2014/09/15 23:15:23.435 DEBUG Opening JDBC Connection
+2014/09/15 23:15:23.437 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [22839460(com.mysql.jdbc.JDBC4Connection@1a544a5)]]
+2014/09/15 23:15:23.442 DEBUG Opening JDBC Connection
+2014/09/15 23:15:23.444 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@18feca1)]]
+2014/09/15 23:15:23.447 DEBUG Opening JDBC Connection
+2014/09/15 23:15:23.469 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [13525567(com.mysql.jdbc.JDBC4Connection@19422d2)]]
+2014/09/15 23:15:23.498 DEBUG Opening JDBC Connection
+2014/09/15 23:15:23.501 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [25831178(com.mysql.jdbc.JDBC4Connection@10936a1)]]
+2014/09/15 23:15:23.955 INFO Shutting down 'springDbPool' pool immediately [Shutdown Hook]
+2014/09/15 23:15:23.959 INFO Stopping Prototyper thread
+2014/09/15 23:15:23.960 INFO Stopping HouseKeeper thread
+2014/09/15 23:17:38.009 INFO Loading properties file from class path resource [jdbc.properties]
+2014/09/15 23:17:38.240 INFO HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014/09/15 23:17:38.245 INFO HHH000412: Hibernate Core {4.2.15.Final}
+2014/09/15 23:17:38.246 INFO HHH000206: hibernate.properties not found
+2014/09/15 23:17:38.247 INFO HHH000021: Bytecode provider name : javassist
+2014/09/15 23:17:38.937 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014/09/15 23:17:39.061 INFO HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014/09/15 23:17:39.065 INFO HHH000397: Using ASTQueryTranslatorFactory
+2014/09/15 23:17:39.242 INFO HHH000228: Running hbm2ddl schema update
+2014/09/15 23:17:39.242 INFO HHH000102: Fetching database metadata
+2014/09/15 23:17:39.264 INFO HHH000396: Updating schema
+2014/09/15 23:17:39.294 INFO HHH000261: Table found: test.t_user
+2014/09/15 23:17:39.294 INFO HHH000037: Columns: [uid, username, password]
+2014/09/15 23:17:39.294 INFO HHH000108: Foreign keys: []
+2014/09/15 23:17:39.294 INFO HHH000126: Indexes: [primary]
+2014/09/15 23:17:39.302 INFO HHH000261: Table found: test.ref_role_function
+2014/09/15 23:17:39.302 INFO HHH000037: Columns: [fid, rfid, rid]
+2014/09/15 23:17:39.302 INFO HHH000108: Foreign keys: [fk_32bl6av3fmkmafshu43eylek4, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 23:17:39.302 INFO HHH000126: Indexes: [fk_32bl6av3fmkmafshu43eylek4, primary, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 23:17:39.309 INFO HHH000261: Table found: test.tab_function
+2014/09/15 23:17:39.309 INFO HHH000037: Columns: [fid, forder, level, pid, furl, fname]
+2014/09/15 23:17:39.309 INFO HHH000108: Foreign keys: [fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 23:17:39.310 INFO HHH000126: Indexes: [primary, fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 23:17:39.316 INFO HHH000261: Table found: test.tab_role
+2014/09/15 23:17:39.316 INFO HHH000037: Columns: [endtime, starttime, rid, rname]
+2014/09/15 23:17:39.316 INFO HHH000108: Foreign keys: []
+2014/09/15 23:17:39.316 INFO HHH000126: Indexes: [primary]
+2014/09/15 23:17:39.322 INFO HHH000261: Table found: test.tab_user
+2014/09/15 23:17:39.322 INFO HHH000037: Columns: [endtime, uid, username, starttime, rid, password]
+2014/09/15 23:17:39.323 INFO HHH000108: Foreign keys: [fk_t3pvigtad7pmlvc2ub3p1i5dr]
+2014/09/15 23:17:39.323 INFO HHH000126: Indexes: [fk_t3pvigtad7pmlvc2ub3p1i5dr, primary]
+2014/09/15 23:17:39.323 INFO HHH000232: Schema update complete
+2014/09/15 23:17:39.851 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2014/09/15 23:17:40.609 DEBUG Opening JDBC Connection
+2014/09/15 23:17:40.651 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [6435687(com.mysql.jdbc.JDBC4Connection@11ce2ad)]]
+2014/09/15 23:17:40.657 DEBUG ==>  Preparing: select * from ACT_GE_PROPERTY where NAME_ = ? 
+2014/09/15 23:17:40.714 DEBUG ==> Parameters: schema.version(String)
+2014/09/15 23:17:40.726 DEBUG <==      Total: 1
+2014/09/15 23:17:40.729 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [6435687(com.mysql.jdbc.JDBC4Connection@11ce2ad)]]
+2014/09/15 23:17:40.731 INFO ProcessEngine default created
+2014/09/15 23:17:40.919 DEBUG Opening JDBC Connection
+2014/09/15 23:17:40.919 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:17:40.920 DEBUG ==>  Preparing: select * from ACT_GE_PROPERTY where NAME_ = ? 
+2014/09/15 23:17:40.920 DEBUG ==> Parameters: next.dbid(String)
+2014/09/15 23:17:40.921 DEBUG <==      Total: 1
+2014/09/15 23:17:40.922 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [32696671(com.mysql.jdbc.JDBC4Connection@b78915)]]
+2014/09/15 23:17:40.922 DEBUG ==>  Preparing: update ACT_GE_PROPERTY SET REV_ = ?, VALUE_ = ? where NAME_ = ? and REV_ = ? 
+2014/09/15 23:17:40.922 DEBUG ==> Parameters: 11(Integer), 25001(String), next.dbid(String), 10(Integer)
+2014/09/15 23:17:40.923 DEBUG <==    Updates: 1
+2014/09/15 23:17:40.923 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [32696671(com.mysql.jdbc.JDBC4Connection@b78915)]]
+2014/09/15 23:17:40.967 INFO Processing resource test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml
+2014/09/15 23:17:41.257 DEBUG Opening JDBC Connection
+2014/09/15 23:17:41.261 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:17:41.261 DEBUG ==>  Preparing: select * from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null) and VERSION_ = (select max(VERSION_) from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null)) 
+2014/09/15 23:17:41.262 DEBUG ==> Parameters: financialReport(String), financialReport(String)
+2014/09/15 23:17:41.264 DEBUG <==      Total: 1
+2014/09/15 23:17:41.266 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [5267983(com.mysql.jdbc.JDBC4Connection@155e3ab)]]
+2014/09/15 23:17:41.266 DEBUG ==>  Preparing: select * from ACT_RU_JOB where HANDLER_TYPE_ = ? and HANDLER_CFG_ = ? 
+2014/09/15 23:17:41.266 DEBUG ==> Parameters: timer-start-event(String), financialReport(String)
+2014/09/15 23:17:41.267 DEBUG <==      Total: 0
+2014/09/15 23:17:41.297 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [5267983(com.mysql.jdbc.JDBC4Connection@155e3ab)]]
+2014/09/15 23:17:41.297 DEBUG ==>  Preparing: select * from ACT_RU_EVENT_SUBSCR where (EVENT_TYPE_ = ?) and ( (CONFIGURATION_ = ?) or (PROC_DEF_ID_ = ?) ) and (TENANT_ID_ = '' or TENANT_ID_ is null) 
+2014/09/15 23:17:41.298 DEBUG ==> Parameters: message(String), financialReport:9:20004(String), financialReport:9:20004(String)
+2014/09/15 23:17:41.299 DEBUG <==      Total: 0
+2014/09/15 23:17:41.299 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [5267983(com.mysql.jdbc.JDBC4Connection@155e3ab)]]
+2014/09/15 23:17:41.299 DEBUG ==>  Preparing: select * from ACT_RU_EVENT_SUBSCR where (EVENT_TYPE_ = ?) and ( (CONFIGURATION_ = ?) or (PROC_DEF_ID_ = ?) ) and (TENANT_ID_ = '' or TENANT_ID_ is null) 
+2014/09/15 23:17:41.300 DEBUG ==> Parameters: signal(String), financialReport:9:20004(String), financialReport:9:20004(String)
+2014/09/15 23:17:41.300 DEBUG <==      Total: 0
+2014/09/15 23:17:41.301 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [5267983(com.mysql.jdbc.JDBC4Connection@155e3ab)]]
+2014/09/15 23:17:41.301 DEBUG ==>  Preparing: insert into ACT_RE_DEPLOYMENT(ID_, NAME_, CATEGORY_, TENANT_ID_, DEPLOY_TIME_) values(?, ?, ?, ?, ?) 
+2014/09/15 23:17:41.307 DEBUG ==> Parameters: 22501(String), null, null, (String), 2014-09-15 23:17:40.917(Timestamp)
+2014/09/15 23:17:41.308 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.308 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [5267983(com.mysql.jdbc.JDBC4Connection@155e3ab)]]
+2014/09/15 23:17:41.308 DEBUG ==>  Preparing: insert into ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_, GENERATED_) values (?, 1, ?, ?, ?, ?) 
+2014/09/15 23:17:41.309 DEBUG ==> Parameters: 22502(String), test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml(String), java.io.ByteArrayInputStream@6dd108(ByteArrayInputStream), 22501(String), false(Boolean)
+2014/09/15 23:17:41.309 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.309 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [5267983(com.mysql.jdbc.JDBC4Connection@155e3ab)]]
+2014/09/15 23:17:41.310 DEBUG ==>  Preparing: insert into ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_, GENERATED_) values (?, 1, ?, ?, ?, ?) 
+2014/09/15 23:17:41.310 DEBUG ==> Parameters: 22503(String), test/cn/tj/baseextweb/oa/FinancialReportProcess.financialReport.png(String), java.io.ByteArrayInputStream@105562b(ByteArrayInputStream), 22501(String), true(Boolean)
+2014/09/15 23:17:41.311 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.311 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [5267983(com.mysql.jdbc.JDBC4Connection@155e3ab)]]
+2014/09/15 23:17:41.311 DEBUG ==>  Preparing: insert into ACT_RE_PROCDEF(ID_, REV_, CATEGORY_, NAME_, KEY_, VERSION_, DEPLOYMENT_ID_, RESOURCE_NAME_, DGRM_RESOURCE_NAME_, DESCRIPTION_, HAS_START_FORM_KEY_, SUSPENSION_STATE_, TENANT_ID_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2014/09/15 23:17:41.312 DEBUG ==> Parameters: financialReport:10:22504(String), http://activiti.org/bpmn20(String), Monthly financial report process(String), financialReport(String), 10(Integer), 22501(String), test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml(String), test/cn/tj/baseextweb/oa/FinancialReportProcess.financialReport.png(String), null, false(Boolean), 1(Integer), (String)
+2014/09/15 23:17:41.312 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.312 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [5267983(com.mysql.jdbc.JDBC4Connection@155e3ab)]]
+2014/09/15 23:17:41.445 DEBUG Opening JDBC Connection
+2014/09/15 23:17:41.446 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:17:41.446 DEBUG ==>  Preparing: select * from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null) and VERSION_ = (select max(VERSION_) from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null)) 
+2014/09/15 23:17:41.446 DEBUG ==> Parameters: financialReport(String), financialReport(String)
+2014/09/15 23:17:41.448 DEBUG <==      Total: 1
+2014/09/15 23:17:41.449 DEBUG initializing ProcessInstance[22505]
+2014/09/15 23:17:41.461 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [31368066(com.mysql.jdbc.JDBC4Connection@1c0adca)]]
+2014/09/15 23:17:41.461 DEBUG ==>  Preparing: insert into ACT_RU_EXECUTION (ID_, REV_, PROC_INST_ID_, BUSINESS_KEY_, PROC_DEF_ID_, ACT_ID_, IS_ACTIVE_, IS_CONCURRENT_, IS_SCOPE_,IS_EVENT_SCOPE_, PARENT_ID_, SUPER_EXEC_, SUSPENSION_STATE_, CACHED_ENT_STATE_, TENANT_ID_, NAME_) values ( ?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:17:41.463 DEBUG ==> Parameters: 22505(String), 22505(String), null, financialReport:10:22504(String), writeReportTask(String), true(Boolean), false(Boolean), true(Boolean), false(Boolean), null, null, 1(Integer), 2(Integer), (String), null
+2014/09/15 23:17:41.463 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.464 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [31368066(com.mysql.jdbc.JDBC4Connection@1c0adca)]]
+2014/09/15 23:17:41.464 DEBUG ==>  Preparing: insert into ACT_HI_PROCINST ( ID_, PROC_INST_ID_, BUSINESS_KEY_, PROC_DEF_ID_, START_TIME_, END_TIME_, DURATION_, START_USER_ID_, START_ACT_ID_, END_ACT_ID_, SUPER_PROCESS_INSTANCE_ID_, DELETE_REASON_, TENANT_ID_, NAME_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:17:41.465 DEBUG ==> Parameters: 22505(String), 22505(String), null, financialReport:10:22504(String), 2014-09-15 23:17:41.452(Timestamp), null, null, null, theStart(String), null, null, null, (String), null
+2014/09/15 23:17:41.465 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.465 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [31368066(com.mysql.jdbc.JDBC4Connection@1c0adca)]]
+2014/09/15 23:17:41.465 DEBUG ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:17:41.466 DEBUG ==> Parameters: 22506(String), financialReport:10:22504(String), 22505(String), 22505(String), theStart(String), null, null, null, startEvent(String), null, 2014-09-15 23:17:41.452(Timestamp), 2014-09-15 23:17:41.458(Timestamp), 6(Long), (String)
+2014/09/15 23:17:41.467 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.467 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [31368066(com.mysql.jdbc.JDBC4Connection@1c0adca)]]
+2014/09/15 23:17:41.468 DEBUG ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:17:41.469 DEBUG ==> Parameters: 22507(String), financialReport:10:22504(String), 22505(String), 22505(String), writeReportTask(String), 22508(String), null, Write monthly financial report(String), userTask(String), null, 2014-09-15 23:17:41.458(Timestamp), null, null, (String)
+2014/09/15 23:17:41.471 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.472 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [31368066(com.mysql.jdbc.JDBC4Connection@1c0adca)]]
+2014/09/15 23:17:41.472 DEBUG ==>  Preparing: insert into ACT_RU_TASK (ID_, REV_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, PRIORITY_, CREATE_TIME_, OWNER_, ASSIGNEE_, DELEGATION_, EXECUTION_ID_, PROC_INST_ID_, PROC_DEF_ID_, TASK_DEF_KEY_, DUE_DATE_, CATEGORY_, SUSPENSION_STATE_, TENANT_ID_, FORM_KEY_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:17:41.473 DEBUG ==> Parameters: 22508(String), Write monthly financial report(String), null, Write monthly financial report for publication to shareholders.(String), 50(Integer), 2014-09-15 23:17:41.459(Timestamp), null, null, null, 22505(String), 22505(String), financialReport:10:22504(String), writeReportTask(String), null, null, 1(Integer), (String), null
+2014/09/15 23:17:41.474 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.474 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [31368066(com.mysql.jdbc.JDBC4Connection@1c0adca)]]
+2014/09/15 23:17:41.475 DEBUG ==>  Preparing: insert into ACT_HI_TASKINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, OWNER_, ASSIGNEE_, START_TIME_, CLAIM_TIME_, END_TIME_, DURATION_, DELETE_REASON_, TASK_DEF_KEY_, FORM_KEY_, PRIORITY_, DUE_DATE_, CATEGORY_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:17:41.475 DEBUG ==> Parameters: 22508(String), financialReport:10:22504(String), 22505(String), 22505(String), Write monthly financial report(String), null, Write monthly financial report for publication to shareholders.(String), null, null, 2014-09-15 23:17:41.459(Timestamp), null, null, null, null, writeReportTask(String), null, 50(Integer), null, null, (String)
+2014/09/15 23:17:41.476 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.476 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [31368066(com.mysql.jdbc.JDBC4Connection@1c0adca)]]
+2014/09/15 23:17:41.476 DEBUG ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2014/09/15 23:17:41.477 DEBUG ==> Parameters: 22509(String), candidate(String), null, accountancy(String), 22508(String), null, null
+2014/09/15 23:17:41.477 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.478 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [31368066(com.mysql.jdbc.JDBC4Connection@1c0adca)]]
+2014/09/15 23:17:41.478 DEBUG ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2014/09/15 23:17:41.478 DEBUG ==> Parameters: 22509(String), candidate(String), null, accountancy(String), 22508(String), null
+2014/09/15 23:17:41.479 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.479 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [31368066(com.mysql.jdbc.JDBC4Connection@1c0adca)]]
+2014/09/15 23:17:41.528 DEBUG Opening JDBC Connection
+2014/09/15 23:17:41.528 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:17:41.529 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES inner join ACT_RU_IDENTITYLINK I on I.TASK_ID_ = RES.ID_ WHERE RES.ASSIGNEE_ is null and I.TYPE_ = 'candidate' and ( I.GROUP_ID_ IN ( ? ) ) order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:17:41.529 DEBUG ==> Parameters: accountancy(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:17:41.530 DEBUG <==      Total: 1
+2014/09/15 23:17:41.531 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [16685777(com.mysql.jdbc.JDBC4Connection@1662250)]]
+2014/09/15 23:17:41.534 DEBUG Opening JDBC Connection
+2014/09/15 23:17:41.535 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:17:41.535 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES inner join ACT_RU_IDENTITYLINK I on I.TASK_ID_ = RES.ID_ WHERE RES.ASSIGNEE_ is null and I.TYPE_ = 'candidate' and ( I.GROUP_ID_ IN ( ? ) ) order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:17:41.535 DEBUG ==> Parameters: accountancy(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:17:41.537 DEBUG <==      Total: 1
+2014/09/15 23:17:41.537 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [3948784(com.mysql.jdbc.JDBC4Connection@1cb4cae)]]
+2014/09/15 23:17:41.540 DEBUG Opening JDBC Connection
+2014/09/15 23:17:41.540 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:17:41.540 DEBUG ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2014/09/15 23:17:41.540 DEBUG ==> Parameters: 22508(String)
+2014/09/15 23:17:41.544 DEBUG <==      Total: 1
+2014/09/15 23:17:41.545 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [24345503(com.mysql.jdbc.JDBC4Connection@b910c6)]]
+2014/09/15 23:17:41.545 DEBUG ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2014/09/15 23:17:41.545 DEBUG ==> Parameters: 22508(String)
+2014/09/15 23:17:41.547 DEBUG <==      Total: 1
+2014/09/15 23:17:41.547 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [24345503(com.mysql.jdbc.JDBC4Connection@b910c6)]]
+2014/09/15 23:17:41.548 DEBUG ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2014/09/15 23:17:41.548 DEBUG ==> Parameters: 22505(String)
+2014/09/15 23:17:41.549 DEBUG <==      Total: 1
+2014/09/15 23:17:41.550 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [24345503(com.mysql.jdbc.JDBC4Connection@b910c6)]]
+2014/09/15 23:17:41.550 DEBUG ==>  Preparing: select * from ACT_RU_IDENTITYLINK where PROC_INST_ID_ = ? 
+2014/09/15 23:17:41.550 DEBUG ==> Parameters: 22505(String)
+2014/09/15 23:17:41.552 DEBUG <==      Total: 0
+2014/09/15 23:17:41.552 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [24345503(com.mysql.jdbc.JDBC4Connection@b910c6)]]
+2014/09/15 23:17:41.553 DEBUG ==>  Preparing: select * from ACT_RE_PROCDEF where ID_ = ? 
+2014/09/15 23:17:41.553 DEBUG ==> Parameters: financialReport:10:22504(String)
+2014/09/15 23:17:41.554 DEBUG <==      Total: 1
+2014/09/15 23:17:41.555 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [24345503(com.mysql.jdbc.JDBC4Connection@b910c6)]]
+2014/09/15 23:17:41.556 DEBUG ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:17:41.556 DEBUG ==> Parameters: 22505(String), writeReportTask(String), 1(Integer), 0(Integer)
+2014/09/15 23:17:41.557 DEBUG <==      Total: 1
+2014/09/15 23:17:41.557 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [24345503(com.mysql.jdbc.JDBC4Connection@b910c6)]]
+2014/09/15 23:17:41.558 DEBUG ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2014/09/15 23:17:41.558 DEBUG ==> Parameters: 22510(String), participant(String), fozzie(String), null, null, 22505(String), null
+2014/09/15 23:17:41.558 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.558 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [24345503(com.mysql.jdbc.JDBC4Connection@b910c6)]]
+2014/09/15 23:17:41.558 DEBUG ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2014/09/15 23:17:41.559 DEBUG ==> Parameters: 22510(String), participant(String), fozzie(String), null, null, 22505(String)
+2014/09/15 23:17:41.559 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.559 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [24345503(com.mysql.jdbc.JDBC4Connection@b910c6)]]
+2014/09/15 23:17:41.559 DEBUG ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2014/09/15 23:17:41.560 DEBUG ==> Parameters: 22505(String), Write monthly financial report(String), null, Write monthly financial report for publication to shareholders.(String), null, fozzie(String), 2014-09-15 23:17:41.557(Timestamp), null, null, null, writeReportTask(String), null, 50(Integer), null, null, 22508(String)
+2014/09/15 23:17:41.561 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.561 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [24345503(com.mysql.jdbc.JDBC4Connection@b910c6)]]
+2014/09/15 23:17:41.561 DEBUG ==>  Preparing: update ACT_RU_TASK SET REV_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, PRIORITY_ = ?, CREATE_TIME_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, DELEGATION_ = ?, EXECUTION_ID_ = ?, PROC_DEF_ID_ = ?, DESCRIPTION_ = ?, DUE_DATE_ = ?, CATEGORY_ = ?, SUSPENSION_STATE_ = ?, FORM_KEY_ = ? where ID_= ? and REV_ = ? 
+2014/09/15 23:17:41.562 DEBUG ==> Parameters: 2(Integer), Write monthly financial report(String), null, 50(Integer), 2014-09-15 23:17:41.0(Timestamp), null, fozzie(String), null, 22505(String), financialReport:10:22504(String), Write monthly financial report for publication to shareholders.(String), null, null, 1(Integer), null, 22508(String), 1(Integer)
+2014/09/15 23:17:41.563 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.563 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [24345503(com.mysql.jdbc.JDBC4Connection@b910c6)]]
+2014/09/15 23:17:41.563 DEBUG ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2014/09/15 23:17:41.563 DEBUG ==> Parameters: 22505(String), fozzie(String), null, null, 22507(String)
+2014/09/15 23:17:41.564 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.564 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [24345503(com.mysql.jdbc.JDBC4Connection@b910c6)]]
+2014/09/15 23:17:41.583 DEBUG Opening JDBC Connection
+2014/09/15 23:17:41.583 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:17:41.583 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:17:41.583 DEBUG ==> Parameters: fozzie(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:17:41.585 DEBUG <==      Total: 1
+2014/09/15 23:17:41.586 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [12189822(com.mysql.jdbc.JDBC4Connection@11ce2ad)]]
+2014/09/15 23:17:41.590 DEBUG Opening JDBC Connection
+2014/09/15 23:17:41.590 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:17:41.590 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:17:41.591 DEBUG ==> Parameters: fozzie(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:17:41.592 DEBUG <==      Total: 1
+2014/09/15 23:17:41.593 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [115186(com.mysql.jdbc.JDBC4Connection@155e3ab)]]
+2014/09/15 23:17:41.596 DEBUG Opening JDBC Connection
+2014/09/15 23:17:41.596 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:17:41.596 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:17:41.597 DEBUG ==> Parameters: fozzie(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:17:41.598 DEBUG <==      Total: 1
+2014/09/15 23:17:41.598 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [10827108(com.mysql.jdbc.JDBC4Connection@1c0adca)]]
+2014/09/15 23:17:41.601 DEBUG Opening JDBC Connection
+2014/09/15 23:17:41.601 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:17:41.601 DEBUG ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2014/09/15 23:17:41.602 DEBUG ==> Parameters: 22508(String)
+2014/09/15 23:17:41.602 DEBUG <==      Total: 1
+2014/09/15 23:17:41.603 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.603 DEBUG ==>  Preparing: select * from ACT_RE_PROCDEF where ID_ = ? 
+2014/09/15 23:17:41.603 DEBUG ==> Parameters: financialReport:10:22504(String)
+2014/09/15 23:17:41.604 DEBUG <==      Total: 1
+2014/09/15 23:17:41.604 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.604 DEBUG ==>  Preparing: select * from ACT_RU_TASK where PARENT_TASK_ID_ = ? 
+2014/09/15 23:17:41.604 DEBUG ==> Parameters: 22508(String)
+2014/09/15 23:17:41.605 DEBUG <==      Total: 0
+2014/09/15 23:17:41.605 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.605 DEBUG ==>  Preparing: select * from ACT_RU_IDENTITYLINK where TASK_ID_ = ? 
+2014/09/15 23:17:41.605 DEBUG ==> Parameters: 22508(String)
+2014/09/15 23:17:41.606 DEBUG <==      Total: 1
+2014/09/15 23:17:41.607 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.607 DEBUG ==>  Preparing: select * from ACT_RU_VARIABLE where TASK_ID_ = ? 
+2014/09/15 23:17:41.607 DEBUG ==> Parameters: 22508(String)
+2014/09/15 23:17:41.608 DEBUG <==      Total: 0
+2014/09/15 23:17:41.608 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.608 DEBUG ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2014/09/15 23:17:41.608 DEBUG ==> Parameters: 22508(String)
+2014/09/15 23:17:41.609 DEBUG <==      Total: 1
+2014/09/15 23:17:41.610 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.610 DEBUG ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2014/09/15 23:17:41.610 DEBUG ==> Parameters: 22505(String)
+2014/09/15 23:17:41.611 DEBUG <==      Total: 1
+2014/09/15 23:17:41.611 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.611 DEBUG ==>  Preparing: select distinct T.* from ACT_RU_TASK T where T.EXECUTION_ID_ = ? 
+2014/09/15 23:17:41.611 DEBUG ==> Parameters: 22505(String)
+2014/09/15 23:17:41.612 DEBUG <==      Total: 1
+2014/09/15 23:17:41.613 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.613 DEBUG ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:17:41.613 DEBUG ==> Parameters: 22505(String), writeReportTask(String), 1(Integer), 0(Integer)
+2014/09/15 23:17:41.614 DEBUG <==      Total: 1
+2014/09/15 23:17:41.614 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.614 DEBUG ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:17:41.615 DEBUG ==> Parameters: 22511(String), financialReport:10:22504(String), 22505(String), 22505(String), verifyReportTask(String), 22512(String), null, Verify monthly financial report(String), userTask(String), null, 2014-09-15 23:17:41.614(Timestamp), null, null, (String)
+2014/09/15 23:17:41.615 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.615 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.615 DEBUG ==>  Preparing: insert into ACT_RU_TASK (ID_, REV_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, PRIORITY_, CREATE_TIME_, OWNER_, ASSIGNEE_, DELEGATION_, EXECUTION_ID_, PROC_INST_ID_, PROC_DEF_ID_, TASK_DEF_KEY_, DUE_DATE_, CATEGORY_, SUSPENSION_STATE_, TENANT_ID_, FORM_KEY_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:17:41.616 DEBUG ==> Parameters: 22512(String), Verify monthly financial report(String), null, Verify monthly financial report composed by the accountancy department.
+				This financial report is going to be sent to all the company
+				shareholders.(String), 50(Integer), 2014-09-15 23:17:41.614(Timestamp), null, null, null, 22505(String), 22505(String), financialReport:10:22504(String), verifyReportTask(String), null, null, 1(Integer), (String), null
+2014/09/15 23:17:41.616 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.617 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.617 DEBUG ==>  Preparing: insert into ACT_HI_TASKINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, OWNER_, ASSIGNEE_, START_TIME_, CLAIM_TIME_, END_TIME_, DURATION_, DELETE_REASON_, TASK_DEF_KEY_, FORM_KEY_, PRIORITY_, DUE_DATE_, CATEGORY_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:17:41.617 DEBUG ==> Parameters: 22512(String), financialReport:10:22504(String), 22505(String), 22505(String), Verify monthly financial report(String), null, Verify monthly financial report composed by the accountancy department.
+				This financial report is going to be sent to all the company
+				shareholders.(String), null, null, 2014-09-15 23:17:41.614(Timestamp), null, null, null, null, verifyReportTask(String), null, 50(Integer), null, null, (String)
+2014/09/15 23:17:41.618 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.618 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.618 DEBUG ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2014/09/15 23:17:41.618 DEBUG ==> Parameters: 22513(String), candidate(String), null, management(String), 22512(String), null, null
+2014/09/15 23:17:41.619 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.619 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.619 DEBUG ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2014/09/15 23:17:41.619 DEBUG ==> Parameters: 22513(String), candidate(String), null, management(String), 22512(String), null
+2014/09/15 23:17:41.619 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.619 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.619 DEBUG ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2014/09/15 23:17:41.620 DEBUG ==> Parameters: 22505(String), Write monthly financial report(String), null, Write monthly financial report for publication to shareholders.(String), null, fozzie(String), 2014-09-15 23:17:41.0(Timestamp), 2014-09-15 23:17:41.609(Timestamp), 609(Long), completed(String), writeReportTask(String), null, 50(Integer), null, null, 22508(String)
+2014/09/15 23:17:41.620 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.620 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.621 DEBUG ==>  Preparing: update ACT_RU_EXECUTION set REV_ = ?, BUSINESS_KEY_ = ?, PROC_DEF_ID_ = ?, ACT_ID_ = ?, IS_ACTIVE_ = ?, IS_CONCURRENT_ = ?, IS_SCOPE_ = ?, IS_EVENT_SCOPE_ = ?, PARENT_ID_ = ?, SUPER_EXEC_ = ?, SUSPENSION_STATE_ = ?, CACHED_ENT_STATE_ = ?, NAME_ = ? where ID_ = ? and REV_ = ? 
+2014/09/15 23:17:41.621 DEBUG ==> Parameters: 2(Integer), null, financialReport:10:22504(String), verifyReportTask(String), true(Boolean), false(Boolean), true(Boolean), false(Boolean), null, null, 1(Integer), 2(Integer), null, 22505(String), 1(Integer)
+2014/09/15 23:17:41.621 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.621 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.621 DEBUG ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2014/09/15 23:17:41.622 DEBUG ==> Parameters: 22505(String), fozzie(String), 2014-09-15 23:17:41.614(Timestamp), 614(Long), 22507(String)
+2014/09/15 23:17:41.622 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.622 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.622 DEBUG ==>  Preparing: delete from ACT_RU_IDENTITYLINK where ID_ = ? 
+2014/09/15 23:17:41.622 DEBUG ==> Parameters: 22509(String)
+2014/09/15 23:17:41.623 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.623 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.623 DEBUG ==>  Preparing: delete from ACT_RU_TASK where ID_ = ? and REV_ = ? 
+2014/09/15 23:17:41.623 DEBUG ==> Parameters: 22508(String), 2(Integer)
+2014/09/15 23:17:41.623 DEBUG <==    Updates: 1
+2014/09/15 23:17:41.623 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [9491698(com.mysql.jdbc.JDBC4Connection@8c666a)]]
+2014/09/15 23:17:41.645 DEBUG Opening JDBC Connection
+2014/09/15 23:17:41.645 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:17:41.645 DEBUG ==>  Preparing: select RES.* from ACT_HI_PROCINST RES inner join ACT_RE_PROCDEF DEF on RES.PROC_DEF_ID_ = DEF.ID_ WHERE DEF.KEY_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:17:41.646 DEBUG ==> Parameters: financialReport(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:17:41.648 DEBUG <==      Total: 8
+2014/09/15 23:17:41.648 DEBUG Closing JDBC Connection [Transaction-aware proxy for target Connection [2243556(com.mysql.jdbc.JDBC4Connection@18a270a)]]
+2014/09/15 23:17:42.119 INFO Shutting down 'springDbPool' pool immediately [Shutdown Hook]
+2014/09/15 23:17:42.125 INFO Stopping Prototyper thread
+2014/09/15 23:17:42.125 INFO Stopping HouseKeeper thread
+2014/09/15 23:20:47.750 INFO Loading properties file from class path resource [jdbc.properties]
+2014/09/15 23:20:47.924 INFO HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014/09/15 23:20:47.929 INFO HHH000412: Hibernate Core {4.2.15.Final}
+2014/09/15 23:20:47.930 INFO HHH000206: hibernate.properties not found
+2014/09/15 23:20:47.932 INFO HHH000021: Bytecode provider name : javassist
+2014/09/15 23:20:48.634 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014/09/15 23:20:48.797 INFO HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014/09/15 23:20:48.804 INFO HHH000397: Using ASTQueryTranslatorFactory
+2014/09/15 23:20:49.032 INFO HHH000228: Running hbm2ddl schema update
+2014/09/15 23:20:49.032 INFO HHH000102: Fetching database metadata
+2014/09/15 23:20:49.059 INFO HHH000396: Updating schema
+2014/09/15 23:20:49.082 INFO HHH000261: Table found: test.t_user
+2014/09/15 23:20:49.082 INFO HHH000037: Columns: [uid, username, password]
+2014/09/15 23:20:49.083 INFO HHH000108: Foreign keys: []
+2014/09/15 23:20:49.083 INFO HHH000126: Indexes: [primary]
+2014/09/15 23:20:49.093 INFO HHH000261: Table found: test.ref_role_function
+2014/09/15 23:20:49.094 INFO HHH000037: Columns: [fid, rfid, rid]
+2014/09/15 23:20:49.094 INFO HHH000108: Foreign keys: [fk_32bl6av3fmkmafshu43eylek4, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 23:20:49.094 INFO HHH000126: Indexes: [fk_32bl6av3fmkmafshu43eylek4, primary, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 23:20:49.105 INFO HHH000261: Table found: test.tab_function
+2014/09/15 23:20:49.106 INFO HHH000037: Columns: [fid, forder, level, pid, furl, fname]
+2014/09/15 23:20:49.106 INFO HHH000108: Foreign keys: [fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 23:20:49.106 INFO HHH000126: Indexes: [primary, fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 23:20:49.115 INFO HHH000261: Table found: test.tab_role
+2014/09/15 23:20:49.116 INFO HHH000037: Columns: [endtime, starttime, rid, rname]
+2014/09/15 23:20:49.116 INFO HHH000108: Foreign keys: []
+2014/09/15 23:20:49.116 INFO HHH000126: Indexes: [primary]
+2014/09/15 23:20:49.125 INFO HHH000261: Table found: test.tab_user
+2014/09/15 23:20:49.125 INFO HHH000037: Columns: [endtime, uid, username, starttime, rid, password]
+2014/09/15 23:20:49.125 INFO HHH000108: Foreign keys: [fk_t3pvigtad7pmlvc2ub3p1i5dr]
+2014/09/15 23:20:49.125 INFO HHH000126: Indexes: [fk_t3pvigtad7pmlvc2ub3p1i5dr, primary]
+2014/09/15 23:20:49.126 INFO HHH000232: Schema update complete
+2014/09/15 23:20:50.448 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [6435687(com.mysql.jdbc.JDBC4Connection@11ce2ad)]]
+2014/09/15 23:20:50.452 DEBUG ==>  Preparing: select * from ACT_GE_PROPERTY where NAME_ = ? 
+2014/09/15 23:20:50.497 DEBUG ==> Parameters: schema.version(String)
+2014/09/15 23:20:50.508 DEBUG <==      Total: 1
+2014/09/15 23:20:50.513 INFO ProcessEngine default created
+2014/09/15 23:20:50.703 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:20:50.703 DEBUG ==>  Preparing: select * from ACT_GE_PROPERTY where NAME_ = ? 
+2014/09/15 23:20:50.704 DEBUG ==> Parameters: next.dbid(String)
+2014/09/15 23:20:50.704 DEBUG <==      Total: 1
+2014/09/15 23:20:50.705 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [12028181(com.mysql.jdbc.JDBC4Connection@188c838)]]
+2014/09/15 23:20:50.705 DEBUG ==>  Preparing: update ACT_GE_PROPERTY SET REV_ = ?, VALUE_ = ? where NAME_ = ? and REV_ = ? 
+2014/09/15 23:20:50.706 DEBUG ==> Parameters: 12(Integer), 27501(String), next.dbid(String), 11(Integer)
+2014/09/15 23:20:50.706 DEBUG <==    Updates: 1
+2014/09/15 23:20:50.730 INFO Processing resource test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml
+2014/09/15 23:20:51.011 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:20:51.012 DEBUG ==>  Preparing: select * from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null) and VERSION_ = (select max(VERSION_) from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null)) 
+2014/09/15 23:20:51.012 DEBUG ==> Parameters: financialReport(String), financialReport(String)
+2014/09/15 23:20:51.017 DEBUG <==      Total: 1
+2014/09/15 23:20:51.020 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [22406059(com.mysql.jdbc.JDBC4Connection@1d602b3)]]
+2014/09/15 23:20:51.020 DEBUG ==>  Preparing: select * from ACT_RU_JOB where HANDLER_TYPE_ = ? and HANDLER_CFG_ = ? 
+2014/09/15 23:20:51.020 DEBUG ==> Parameters: timer-start-event(String), financialReport(String)
+2014/09/15 23:20:51.021 DEBUG <==      Total: 0
+2014/09/15 23:20:51.050 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [22406059(com.mysql.jdbc.JDBC4Connection@1d602b3)]]
+2014/09/15 23:20:51.051 DEBUG ==>  Preparing: select * from ACT_RU_EVENT_SUBSCR where (EVENT_TYPE_ = ?) and ( (CONFIGURATION_ = ?) or (PROC_DEF_ID_ = ?) ) and (TENANT_ID_ = '' or TENANT_ID_ is null) 
+2014/09/15 23:20:51.051 DEBUG ==> Parameters: message(String), financialReport:10:22504(String), financialReport:10:22504(String)
+2014/09/15 23:20:51.052 DEBUG <==      Total: 0
+2014/09/15 23:20:51.052 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [22406059(com.mysql.jdbc.JDBC4Connection@1d602b3)]]
+2014/09/15 23:20:51.053 DEBUG ==>  Preparing: select * from ACT_RU_EVENT_SUBSCR where (EVENT_TYPE_ = ?) and ( (CONFIGURATION_ = ?) or (PROC_DEF_ID_ = ?) ) and (TENANT_ID_ = '' or TENANT_ID_ is null) 
+2014/09/15 23:20:51.053 DEBUG ==> Parameters: signal(String), financialReport:10:22504(String), financialReport:10:22504(String)
+2014/09/15 23:20:51.054 DEBUG <==      Total: 0
+2014/09/15 23:20:51.055 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [22406059(com.mysql.jdbc.JDBC4Connection@1d602b3)]]
+2014/09/15 23:20:51.055 DEBUG ==>  Preparing: insert into ACT_RE_DEPLOYMENT(ID_, NAME_, CATEGORY_, TENANT_ID_, DEPLOY_TIME_) values(?, ?, ?, ?, ?) 
+2014/09/15 23:20:51.061 DEBUG ==> Parameters: 25001(String), null, null, (String), 2014-09-15 23:20:50.701(Timestamp)
+2014/09/15 23:20:51.062 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.062 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [22406059(com.mysql.jdbc.JDBC4Connection@1d602b3)]]
+2014/09/15 23:20:51.062 DEBUG ==>  Preparing: insert into ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_, GENERATED_) values (?, 1, ?, ?, ?, ?) 
+2014/09/15 23:20:51.063 DEBUG ==> Parameters: 25002(String), test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml(String), java.io.ByteArrayInputStream@1b68d78(ByteArrayInputStream), 25001(String), false(Boolean)
+2014/09/15 23:20:51.063 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.063 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [22406059(com.mysql.jdbc.JDBC4Connection@1d602b3)]]
+2014/09/15 23:20:51.064 DEBUG ==>  Preparing: insert into ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_, GENERATED_) values (?, 1, ?, ?, ?, ?) 
+2014/09/15 23:20:51.064 DEBUG ==> Parameters: 25003(String), test/cn/tj/baseextweb/oa/FinancialReportProcess.financialReport.png(String), java.io.ByteArrayInputStream@15c30f6(ByteArrayInputStream), 25001(String), true(Boolean)
+2014/09/15 23:20:51.065 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.065 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [22406059(com.mysql.jdbc.JDBC4Connection@1d602b3)]]
+2014/09/15 23:20:51.065 DEBUG ==>  Preparing: insert into ACT_RE_PROCDEF(ID_, REV_, CATEGORY_, NAME_, KEY_, VERSION_, DEPLOYMENT_ID_, RESOURCE_NAME_, DGRM_RESOURCE_NAME_, DESCRIPTION_, HAS_START_FORM_KEY_, SUSPENSION_STATE_, TENANT_ID_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2014/09/15 23:20:51.066 DEBUG ==> Parameters: financialReport:11:25004(String), http://activiti.org/bpmn20(String), Monthly financial report process(String), financialReport(String), 11(Integer), 25001(String), test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml(String), test/cn/tj/baseextweb/oa/FinancialReportProcess.financialReport.png(String), null, false(Boolean), 1(Integer), (String)
+2014/09/15 23:20:51.066 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.187 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:20:51.188 DEBUG ==>  Preparing: select * from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null) and VERSION_ = (select max(VERSION_) from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null)) 
+2014/09/15 23:20:51.188 DEBUG ==> Parameters: financialReport(String), financialReport(String)
+2014/09/15 23:20:51.190 DEBUG <==      Total: 1
+2014/09/15 23:20:51.190 DEBUG initializing ProcessInstance[25005]
+2014/09/15 23:20:51.201 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:20:51.202 DEBUG ==>  Preparing: insert into ACT_RU_EXECUTION (ID_, REV_, PROC_INST_ID_, BUSINESS_KEY_, PROC_DEF_ID_, ACT_ID_, IS_ACTIVE_, IS_CONCURRENT_, IS_SCOPE_,IS_EVENT_SCOPE_, PARENT_ID_, SUPER_EXEC_, SUSPENSION_STATE_, CACHED_ENT_STATE_, TENANT_ID_, NAME_) values ( ?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:20:51.203 DEBUG ==> Parameters: 25005(String), 25005(String), null, financialReport:11:25004(String), writeReportTask(String), true(Boolean), false(Boolean), true(Boolean), false(Boolean), null, null, 1(Integer), 2(Integer), (String), null
+2014/09/15 23:20:51.204 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.204 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:20:51.204 DEBUG ==>  Preparing: insert into ACT_HI_PROCINST ( ID_, PROC_INST_ID_, BUSINESS_KEY_, PROC_DEF_ID_, START_TIME_, END_TIME_, DURATION_, START_USER_ID_, START_ACT_ID_, END_ACT_ID_, SUPER_PROCESS_INSTANCE_ID_, DELETE_REASON_, TENANT_ID_, NAME_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:20:51.205 DEBUG ==> Parameters: 25005(String), 25005(String), null, financialReport:11:25004(String), 2014-09-15 23:20:51.192(Timestamp), null, null, null, theStart(String), null, null, null, (String), null
+2014/09/15 23:20:51.205 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.205 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:20:51.205 DEBUG ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:20:51.207 DEBUG ==> Parameters: 25006(String), financialReport:11:25004(String), 25005(String), 25005(String), theStart(String), null, null, null, startEvent(String), null, 2014-09-15 23:20:51.192(Timestamp), 2014-09-15 23:20:51.198(Timestamp), 6(Long), (String)
+2014/09/15 23:20:51.207 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.207 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:20:51.208 DEBUG ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:20:51.209 DEBUG ==> Parameters: 25007(String), financialReport:11:25004(String), 25005(String), 25005(String), writeReportTask(String), 25008(String), null, Write monthly financial report(String), userTask(String), null, 2014-09-15 23:20:51.198(Timestamp), null, null, (String)
+2014/09/15 23:20:51.210 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.211 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:20:51.211 DEBUG ==>  Preparing: insert into ACT_RU_TASK (ID_, REV_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, PRIORITY_, CREATE_TIME_, OWNER_, ASSIGNEE_, DELEGATION_, EXECUTION_ID_, PROC_INST_ID_, PROC_DEF_ID_, TASK_DEF_KEY_, DUE_DATE_, CATEGORY_, SUSPENSION_STATE_, TENANT_ID_, FORM_KEY_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:20:51.212 DEBUG ==> Parameters: 25008(String), Write monthly financial report(String), null, Write monthly financial report for publication to shareholders.(String), 50(Integer), 2014-09-15 23:20:51.198(Timestamp), null, null, null, 25005(String), 25005(String), financialReport:11:25004(String), writeReportTask(String), null, null, 1(Integer), (String), null
+2014/09/15 23:20:51.213 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.213 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:20:51.214 DEBUG ==>  Preparing: insert into ACT_HI_TASKINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, OWNER_, ASSIGNEE_, START_TIME_, CLAIM_TIME_, END_TIME_, DURATION_, DELETE_REASON_, TASK_DEF_KEY_, FORM_KEY_, PRIORITY_, DUE_DATE_, CATEGORY_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:20:51.215 DEBUG ==> Parameters: 25008(String), financialReport:11:25004(String), 25005(String), 25005(String), Write monthly financial report(String), null, Write monthly financial report for publication to shareholders.(String), null, null, 2014-09-15 23:20:51.198(Timestamp), null, null, null, null, writeReportTask(String), null, 50(Integer), null, null, (String)
+2014/09/15 23:20:51.216 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.216 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:20:51.216 DEBUG ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2014/09/15 23:20:51.216 DEBUG ==> Parameters: 25009(String), candidate(String), null, accountancy(String), 25008(String), null, null
+2014/09/15 23:20:51.217 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.217 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:20:51.217 DEBUG ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2014/09/15 23:20:51.218 DEBUG ==> Parameters: 25009(String), candidate(String), null, accountancy(String), 25008(String), null
+2014/09/15 23:20:51.218 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.265 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:20:51.265 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES inner join ACT_RU_IDENTITYLINK I on I.TASK_ID_ = RES.ID_ WHERE RES.ASSIGNEE_ is null and I.TYPE_ = 'candidate' and ( I.GROUP_ID_ IN ( ? ) ) order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:20:51.266 DEBUG ==> Parameters: accountancy(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:20:51.267 DEBUG <==      Total: 1
+2014/09/15 23:20:51.271 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:20:51.271 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES inner join ACT_RU_IDENTITYLINK I on I.TASK_ID_ = RES.ID_ WHERE RES.ASSIGNEE_ is null and I.TYPE_ = 'candidate' and ( I.GROUP_ID_ IN ( ? ) ) order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:20:51.271 DEBUG ==> Parameters: accountancy(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:20:51.273 DEBUG <==      Total: 1
+2014/09/15 23:20:51.278 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:20:51.279 DEBUG ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2014/09/15 23:20:51.279 DEBUG ==> Parameters: 25008(String)
+2014/09/15 23:20:51.280 DEBUG <==      Total: 1
+2014/09/15 23:20:51.281 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [28277251(com.mysql.jdbc.JDBC4Connection@1737b9f)]]
+2014/09/15 23:20:51.281 DEBUG ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2014/09/15 23:20:51.281 DEBUG ==> Parameters: 25008(String)
+2014/09/15 23:20:51.282 DEBUG <==      Total: 1
+2014/09/15 23:20:51.283 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [28277251(com.mysql.jdbc.JDBC4Connection@1737b9f)]]
+2014/09/15 23:20:51.283 DEBUG ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2014/09/15 23:20:51.283 DEBUG ==> Parameters: 25005(String)
+2014/09/15 23:20:51.284 DEBUG <==      Total: 1
+2014/09/15 23:20:51.284 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [28277251(com.mysql.jdbc.JDBC4Connection@1737b9f)]]
+2014/09/15 23:20:51.284 DEBUG ==>  Preparing: select * from ACT_RU_IDENTITYLINK where PROC_INST_ID_ = ? 
+2014/09/15 23:20:51.285 DEBUG ==> Parameters: 25005(String)
+2014/09/15 23:20:51.285 DEBUG <==      Total: 0
+2014/09/15 23:20:51.285 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [28277251(com.mysql.jdbc.JDBC4Connection@1737b9f)]]
+2014/09/15 23:20:51.286 DEBUG ==>  Preparing: select * from ACT_RE_PROCDEF where ID_ = ? 
+2014/09/15 23:20:51.286 DEBUG ==> Parameters: financialReport:11:25004(String)
+2014/09/15 23:20:51.286 DEBUG <==      Total: 1
+2014/09/15 23:20:51.288 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [28277251(com.mysql.jdbc.JDBC4Connection@1737b9f)]]
+2014/09/15 23:20:51.288 DEBUG ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:20:51.289 DEBUG ==> Parameters: 25005(String), writeReportTask(String), 1(Integer), 0(Integer)
+2014/09/15 23:20:51.290 DEBUG <==      Total: 1
+2014/09/15 23:20:51.290 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [28277251(com.mysql.jdbc.JDBC4Connection@1737b9f)]]
+2014/09/15 23:20:51.290 DEBUG ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2014/09/15 23:20:51.291 DEBUG ==> Parameters: 25010(String), participant(String), fozzie(String), null, null, 25005(String), null
+2014/09/15 23:20:51.291 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.292 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [28277251(com.mysql.jdbc.JDBC4Connection@1737b9f)]]
+2014/09/15 23:20:51.292 DEBUG ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2014/09/15 23:20:51.292 DEBUG ==> Parameters: 25010(String), participant(String), fozzie(String), null, null, 25005(String)
+2014/09/15 23:20:51.292 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.293 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [28277251(com.mysql.jdbc.JDBC4Connection@1737b9f)]]
+2014/09/15 23:20:51.293 DEBUG ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2014/09/15 23:20:51.295 DEBUG ==> Parameters: 25005(String), Write monthly financial report(String), null, Write monthly financial report for publication to shareholders.(String), null, fozzie(String), 2014-09-15 23:20:51.29(Timestamp), null, null, null, writeReportTask(String), null, 50(Integer), null, null, 25008(String)
+2014/09/15 23:20:51.296 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.296 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [28277251(com.mysql.jdbc.JDBC4Connection@1737b9f)]]
+2014/09/15 23:20:51.296 DEBUG ==>  Preparing: update ACT_RU_TASK SET REV_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, PRIORITY_ = ?, CREATE_TIME_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, DELEGATION_ = ?, EXECUTION_ID_ = ?, PROC_DEF_ID_ = ?, DESCRIPTION_ = ?, DUE_DATE_ = ?, CATEGORY_ = ?, SUSPENSION_STATE_ = ?, FORM_KEY_ = ? where ID_= ? and REV_ = ? 
+2014/09/15 23:20:51.297 DEBUG ==> Parameters: 2(Integer), Write monthly financial report(String), null, 50(Integer), 2014-09-15 23:20:51.0(Timestamp), null, fozzie(String), null, 25005(String), financialReport:11:25004(String), Write monthly financial report for publication to shareholders.(String), null, null, 1(Integer), null, 25008(String), 1(Integer)
+2014/09/15 23:20:51.298 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.298 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [28277251(com.mysql.jdbc.JDBC4Connection@1737b9f)]]
+2014/09/15 23:20:51.298 DEBUG ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2014/09/15 23:20:51.298 DEBUG ==> Parameters: 25005(String), fozzie(String), null, null, 25007(String)
+2014/09/15 23:20:51.298 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.310 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:20:51.310 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:20:51.310 DEBUG ==> Parameters: fozzie(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:20:51.313 DEBUG <==      Total: 1
+2014/09/15 23:20:51.317 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:20:51.317 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:20:51.317 DEBUG ==> Parameters: fozzie(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:20:51.319 DEBUG <==      Total: 1
+2014/09/15 23:20:51.323 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:20:51.323 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:20:51.323 DEBUG ==> Parameters: fozzie(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:20:51.324 DEBUG <==      Total: 1
+2014/09/15 23:20:51.327 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:20:51.327 DEBUG ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2014/09/15 23:20:51.328 DEBUG ==> Parameters: 25008(String)
+2014/09/15 23:20:51.329 DEBUG <==      Total: 1
+2014/09/15 23:20:51.329 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.329 DEBUG ==>  Preparing: select * from ACT_RE_PROCDEF where ID_ = ? 
+2014/09/15 23:20:51.329 DEBUG ==> Parameters: financialReport:11:25004(String)
+2014/09/15 23:20:51.330 DEBUG <==      Total: 1
+2014/09/15 23:20:51.330 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.330 DEBUG ==>  Preparing: select * from ACT_RU_TASK where PARENT_TASK_ID_ = ? 
+2014/09/15 23:20:51.330 DEBUG ==> Parameters: 25008(String)
+2014/09/15 23:20:51.332 DEBUG <==      Total: 0
+2014/09/15 23:20:51.333 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.333 DEBUG ==>  Preparing: select * from ACT_RU_IDENTITYLINK where TASK_ID_ = ? 
+2014/09/15 23:20:51.333 DEBUG ==> Parameters: 25008(String)
+2014/09/15 23:20:51.334 DEBUG <==      Total: 1
+2014/09/15 23:20:51.335 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.335 DEBUG ==>  Preparing: select * from ACT_RU_VARIABLE where TASK_ID_ = ? 
+2014/09/15 23:20:51.335 DEBUG ==> Parameters: 25008(String)
+2014/09/15 23:20:51.336 DEBUG <==      Total: 0
+2014/09/15 23:20:51.336 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.337 DEBUG ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2014/09/15 23:20:51.337 DEBUG ==> Parameters: 25008(String)
+2014/09/15 23:20:51.338 DEBUG <==      Total: 1
+2014/09/15 23:20:51.338 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.338 DEBUG ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2014/09/15 23:20:51.338 DEBUG ==> Parameters: 25005(String)
+2014/09/15 23:20:51.339 DEBUG <==      Total: 1
+2014/09/15 23:20:51.340 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.340 DEBUG ==>  Preparing: select distinct T.* from ACT_RU_TASK T where T.EXECUTION_ID_ = ? 
+2014/09/15 23:20:51.340 DEBUG ==> Parameters: 25005(String)
+2014/09/15 23:20:51.341 DEBUG <==      Total: 1
+2014/09/15 23:20:51.341 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.342 DEBUG ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:20:51.342 DEBUG ==> Parameters: 25005(String), writeReportTask(String), 1(Integer), 0(Integer)
+2014/09/15 23:20:51.343 DEBUG <==      Total: 1
+2014/09/15 23:20:51.343 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.343 DEBUG ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:20:51.344 DEBUG ==> Parameters: 25011(String), financialReport:11:25004(String), 25005(String), 25005(String), verifyReportTask(String), 25012(String), null, Verify monthly financial report(String), userTask(String), null, 2014-09-15 23:20:51.343(Timestamp), null, null, (String)
+2014/09/15 23:20:51.344 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.345 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.345 DEBUG ==>  Preparing: insert into ACT_RU_TASK (ID_, REV_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, PRIORITY_, CREATE_TIME_, OWNER_, ASSIGNEE_, DELEGATION_, EXECUTION_ID_, PROC_INST_ID_, PROC_DEF_ID_, TASK_DEF_KEY_, DUE_DATE_, CATEGORY_, SUSPENSION_STATE_, TENANT_ID_, FORM_KEY_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:20:51.345 DEBUG ==> Parameters: 25012(String), Verify monthly financial report(String), null, Verify monthly financial report composed by the accountancy department.
+				This financial report is going to be sent to all the company
+				shareholders.(String), 50(Integer), 2014-09-15 23:20:51.343(Timestamp), null, null, null, 25005(String), 25005(String), financialReport:11:25004(String), verifyReportTask(String), null, null, 1(Integer), (String), null
+2014/09/15 23:20:51.346 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.346 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.346 DEBUG ==>  Preparing: insert into ACT_HI_TASKINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, OWNER_, ASSIGNEE_, START_TIME_, CLAIM_TIME_, END_TIME_, DURATION_, DELETE_REASON_, TASK_DEF_KEY_, FORM_KEY_, PRIORITY_, DUE_DATE_, CATEGORY_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:20:51.347 DEBUG ==> Parameters: 25012(String), financialReport:11:25004(String), 25005(String), 25005(String), Verify monthly financial report(String), null, Verify monthly financial report composed by the accountancy department.
+				This financial report is going to be sent to all the company
+				shareholders.(String), null, null, 2014-09-15 23:20:51.343(Timestamp), null, null, null, null, verifyReportTask(String), null, 50(Integer), null, null, (String)
+2014/09/15 23:20:51.347 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.347 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.347 DEBUG ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2014/09/15 23:20:51.347 DEBUG ==> Parameters: 25013(String), candidate(String), null, management(String), 25012(String), null, null
+2014/09/15 23:20:51.348 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.348 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.348 DEBUG ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2014/09/15 23:20:51.348 DEBUG ==> Parameters: 25013(String), candidate(String), null, management(String), 25012(String), null
+2014/09/15 23:20:51.348 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.348 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.348 DEBUG ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2014/09/15 23:20:51.349 DEBUG ==> Parameters: 25005(String), Write monthly financial report(String), null, Write monthly financial report for publication to shareholders.(String), null, fozzie(String), 2014-09-15 23:20:51.0(Timestamp), 2014-09-15 23:20:51.338(Timestamp), 338(Long), completed(String), writeReportTask(String), null, 50(Integer), null, null, 25008(String)
+2014/09/15 23:20:51.349 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.349 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.350 DEBUG ==>  Preparing: update ACT_RU_EXECUTION set REV_ = ?, BUSINESS_KEY_ = ?, PROC_DEF_ID_ = ?, ACT_ID_ = ?, IS_ACTIVE_ = ?, IS_CONCURRENT_ = ?, IS_SCOPE_ = ?, IS_EVENT_SCOPE_ = ?, PARENT_ID_ = ?, SUPER_EXEC_ = ?, SUSPENSION_STATE_ = ?, CACHED_ENT_STATE_ = ?, NAME_ = ? where ID_ = ? and REV_ = ? 
+2014/09/15 23:20:51.350 DEBUG ==> Parameters: 2(Integer), null, financialReport:11:25004(String), verifyReportTask(String), true(Boolean), false(Boolean), true(Boolean), false(Boolean), null, null, 1(Integer), 2(Integer), null, 25005(String), 1(Integer)
+2014/09/15 23:20:51.350 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.350 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.351 DEBUG ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2014/09/15 23:20:51.351 DEBUG ==> Parameters: 25005(String), fozzie(String), 2014-09-15 23:20:51.343(Timestamp), 343(Long), 25007(String)
+2014/09/15 23:20:51.351 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.352 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.352 DEBUG ==>  Preparing: delete from ACT_RU_IDENTITYLINK where ID_ = ? 
+2014/09/15 23:20:51.352 DEBUG ==> Parameters: 25009(String)
+2014/09/15 23:20:51.352 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.352 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [3926741(com.mysql.jdbc.JDBC4Connection@1b66aff)]]
+2014/09/15 23:20:51.352 DEBUG ==>  Preparing: delete from ACT_RU_TASK where ID_ = ? and REV_ = ? 
+2014/09/15 23:20:51.353 DEBUG ==> Parameters: 25008(String), 2(Integer)
+2014/09/15 23:20:51.353 DEBUG <==    Updates: 1
+2014/09/15 23:20:51.381 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@14fa79d]]
+2014/09/15 23:20:51.382 DEBUG ==>  Preparing: select RES.* from ACT_HI_PROCINST RES inner join ACT_RE_PROCDEF DEF on RES.PROC_DEF_ID_ = DEF.ID_ WHERE DEF.KEY_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:20:51.382 DEBUG ==> Parameters: financialReport(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:20:51.384 DEBUG <==      Total: 9
+2014/09/15 23:20:51.875 INFO Shutting down 'springDbPool' pool immediately [Shutdown Hook]
+2014/09/15 23:20:51.881 INFO Stopping Prototyper thread
+2014/09/15 23:20:51.881 INFO Stopping HouseKeeper thread
+2014/09/15 23:21:32.460 INFO Loading properties file from class path resource [jdbc.properties]
+2014/09/15 23:21:32.645 INFO HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014/09/15 23:21:32.649 INFO HHH000412: Hibernate Core {4.2.15.Final}
+2014/09/15 23:21:32.650 INFO HHH000206: hibernate.properties not found
+2014/09/15 23:21:32.652 INFO HHH000021: Bytecode provider name : javassist
+2014/09/15 23:21:33.313 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014/09/15 23:21:33.431 INFO HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014/09/15 23:21:33.435 INFO HHH000397: Using ASTQueryTranslatorFactory
+2014/09/15 23:21:33.668 INFO HHH000228: Running hbm2ddl schema update
+2014/09/15 23:21:33.668 INFO HHH000102: Fetching database metadata
+2014/09/15 23:21:33.701 INFO HHH000396: Updating schema
+2014/09/15 23:21:33.721 INFO HHH000261: Table found: test.t_user
+2014/09/15 23:21:33.721 INFO HHH000037: Columns: [uid, username, password]
+2014/09/15 23:21:33.722 INFO HHH000108: Foreign keys: []
+2014/09/15 23:21:33.722 INFO HHH000126: Indexes: [primary]
+2014/09/15 23:21:33.734 INFO HHH000261: Table found: test.ref_role_function
+2014/09/15 23:21:33.734 INFO HHH000037: Columns: [fid, rfid, rid]
+2014/09/15 23:21:33.734 INFO HHH000108: Foreign keys: [fk_32bl6av3fmkmafshu43eylek4, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 23:21:33.735 INFO HHH000126: Indexes: [fk_32bl6av3fmkmafshu43eylek4, primary, fk_dctjn6cam1f4kmthgegpxnkua]
+2014/09/15 23:21:33.746 INFO HHH000261: Table found: test.tab_function
+2014/09/15 23:21:33.747 INFO HHH000037: Columns: [fid, forder, level, pid, furl, fname]
+2014/09/15 23:21:33.747 INFO HHH000108: Foreign keys: [fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 23:21:33.747 INFO HHH000126: Indexes: [primary, fk_7s8wc3smh6y00v7ryndsk45p]
+2014/09/15 23:21:33.754 INFO HHH000261: Table found: test.tab_role
+2014/09/15 23:21:33.754 INFO HHH000037: Columns: [endtime, starttime, rid, rname]
+2014/09/15 23:21:33.755 INFO HHH000108: Foreign keys: []
+2014/09/15 23:21:33.755 INFO HHH000126: Indexes: [primary]
+2014/09/15 23:21:33.763 INFO HHH000261: Table found: test.tab_user
+2014/09/15 23:21:33.764 INFO HHH000037: Columns: [endtime, uid, username, starttime, rid, password]
+2014/09/15 23:21:33.764 INFO HHH000108: Foreign keys: [fk_t3pvigtad7pmlvc2ub3p1i5dr]
+2014/09/15 23:21:33.764 INFO HHH000126: Indexes: [fk_t3pvigtad7pmlvc2ub3p1i5dr, primary]
+2014/09/15 23:21:33.765 INFO HHH000232: Schema update complete
+2014/09/15 23:21:35.065 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [23462603(com.mysql.jdbc.JDBC4Connection@4178d0)]]
+2014/09/15 23:21:35.068 DEBUG ==>  Preparing: select * from ACT_GE_PROPERTY where NAME_ = ? 
+2014/09/15 23:21:35.109 DEBUG ==> Parameters: schema.version(String)
+2014/09/15 23:21:35.120 DEBUG <==      Total: 1
+2014/09/15 23:21:35.125 INFO ProcessEngine default created
+2014/09/15 23:21:35.319 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@17a7de4]]
+2014/09/15 23:21:35.319 DEBUG ==>  Preparing: select * from ACT_GE_PROPERTY where NAME_ = ? 
+2014/09/15 23:21:35.319 DEBUG ==> Parameters: next.dbid(String)
+2014/09/15 23:21:35.320 DEBUG <==      Total: 1
+2014/09/15 23:21:35.321 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [25741368(com.mysql.jdbc.JDBC4Connection@111089b)]]
+2014/09/15 23:21:35.321 DEBUG ==>  Preparing: update ACT_GE_PROPERTY SET REV_ = ?, VALUE_ = ? where NAME_ = ? and REV_ = ? 
+2014/09/15 23:21:35.322 DEBUG ==> Parameters: 13(Integer), 30001(String), next.dbid(String), 12(Integer)
+2014/09/15 23:21:35.322 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.340 INFO Processing resource test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml
+2014/09/15 23:21:35.634 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@17a7de4]]
+2014/09/15 23:21:35.634 DEBUG ==>  Preparing: select * from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null) and VERSION_ = (select max(VERSION_) from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null)) 
+2014/09/15 23:21:35.634 DEBUG ==> Parameters: financialReport(String), financialReport(String)
+2014/09/15 23:21:35.640 DEBUG <==      Total: 1
+2014/09/15 23:21:35.642 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [30802611(com.mysql.jdbc.JDBC4Connection@14b4b3a)]]
+2014/09/15 23:21:35.642 DEBUG ==>  Preparing: select * from ACT_RU_JOB where HANDLER_TYPE_ = ? and HANDLER_CFG_ = ? 
+2014/09/15 23:21:35.643 DEBUG ==> Parameters: timer-start-event(String), financialReport(String)
+2014/09/15 23:21:35.644 DEBUG <==      Total: 0
+2014/09/15 23:21:35.672 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [30802611(com.mysql.jdbc.JDBC4Connection@14b4b3a)]]
+2014/09/15 23:21:35.673 DEBUG ==>  Preparing: select * from ACT_RU_EVENT_SUBSCR where (EVENT_TYPE_ = ?) and ( (CONFIGURATION_ = ?) or (PROC_DEF_ID_ = ?) ) and (TENANT_ID_ = '' or TENANT_ID_ is null) 
+2014/09/15 23:21:35.673 DEBUG ==> Parameters: message(String), financialReport:11:25004(String), financialReport:11:25004(String)
+2014/09/15 23:21:35.674 DEBUG <==      Total: 0
+2014/09/15 23:21:35.674 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [30802611(com.mysql.jdbc.JDBC4Connection@14b4b3a)]]
+2014/09/15 23:21:35.674 DEBUG ==>  Preparing: select * from ACT_RU_EVENT_SUBSCR where (EVENT_TYPE_ = ?) and ( (CONFIGURATION_ = ?) or (PROC_DEF_ID_ = ?) ) and (TENANT_ID_ = '' or TENANT_ID_ is null) 
+2014/09/15 23:21:35.675 DEBUG ==> Parameters: signal(String), financialReport:11:25004(String), financialReport:11:25004(String)
+2014/09/15 23:21:35.675 DEBUG <==      Total: 0
+2014/09/15 23:21:35.676 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [30802611(com.mysql.jdbc.JDBC4Connection@14b4b3a)]]
+2014/09/15 23:21:35.676 DEBUG ==>  Preparing: insert into ACT_RE_DEPLOYMENT(ID_, NAME_, CATEGORY_, TENANT_ID_, DEPLOY_TIME_) values(?, ?, ?, ?, ?) 
+2014/09/15 23:21:35.682 DEBUG ==> Parameters: 27501(String), null, null, (String), 2014-09-15 23:21:35.317(Timestamp)
+2014/09/15 23:21:35.683 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.683 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [30802611(com.mysql.jdbc.JDBC4Connection@14b4b3a)]]
+2014/09/15 23:21:35.683 DEBUG ==>  Preparing: insert into ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_, GENERATED_) values (?, 1, ?, ?, ?, ?) 
+2014/09/15 23:21:35.684 DEBUG ==> Parameters: 27502(String), test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml(String), java.io.ByteArrayInputStream@1ef4b(ByteArrayInputStream), 27501(String), false(Boolean)
+2014/09/15 23:21:35.684 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.685 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [30802611(com.mysql.jdbc.JDBC4Connection@14b4b3a)]]
+2014/09/15 23:21:35.685 DEBUG ==>  Preparing: insert into ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_, GENERATED_) values (?, 1, ?, ?, ?, ?) 
+2014/09/15 23:21:35.685 DEBUG ==> Parameters: 27503(String), test/cn/tj/baseextweb/oa/FinancialReportProcess.financialReport.png(String), java.io.ByteArrayInputStream@1927275(ByteArrayInputStream), 27501(String), true(Boolean)
+2014/09/15 23:21:35.686 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.686 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [30802611(com.mysql.jdbc.JDBC4Connection@14b4b3a)]]
+2014/09/15 23:21:35.686 DEBUG ==>  Preparing: insert into ACT_RE_PROCDEF(ID_, REV_, CATEGORY_, NAME_, KEY_, VERSION_, DEPLOYMENT_ID_, RESOURCE_NAME_, DGRM_RESOURCE_NAME_, DESCRIPTION_, HAS_START_FORM_KEY_, SUSPENSION_STATE_, TENANT_ID_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2014/09/15 23:21:35.687 DEBUG ==> Parameters: financialReport:12:27504(String), http://activiti.org/bpmn20(String), Monthly financial report process(String), financialReport(String), 12(Integer), 27501(String), test/cn/tj/baseextweb/oa/FinancialReportProcess.bpmn20.xml(String), test/cn/tj/baseextweb/oa/FinancialReportProcess.financialReport.png(String), null, false(Boolean), 1(Integer), (String)
+2014/09/15 23:21:35.687 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.802 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@17a7de4]]
+2014/09/15 23:21:35.802 DEBUG ==>  Preparing: select * from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null) and VERSION_ = (select max(VERSION_) from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null)) 
+2014/09/15 23:21:35.808 DEBUG ==> Parameters: financialReport(String), financialReport(String)
+2014/09/15 23:21:35.810 DEBUG <==      Total: 1
+2014/09/15 23:21:35.810 DEBUG initializing ProcessInstance[27505]
+2014/09/15 23:21:35.826 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:21:35.826 DEBUG ==>  Preparing: insert into ACT_RU_EXECUTION (ID_, REV_, PROC_INST_ID_, BUSINESS_KEY_, PROC_DEF_ID_, ACT_ID_, IS_ACTIVE_, IS_CONCURRENT_, IS_SCOPE_,IS_EVENT_SCOPE_, PARENT_ID_, SUPER_EXEC_, SUSPENSION_STATE_, CACHED_ENT_STATE_, TENANT_ID_, NAME_) values ( ?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:21:35.827 DEBUG ==> Parameters: 27505(String), 27505(String), null, financialReport:12:27504(String), writeReportTask(String), true(Boolean), false(Boolean), true(Boolean), false(Boolean), null, null, 1(Integer), 2(Integer), (String), null
+2014/09/15 23:21:35.828 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.828 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:21:35.828 DEBUG ==>  Preparing: insert into ACT_HI_PROCINST ( ID_, PROC_INST_ID_, BUSINESS_KEY_, PROC_DEF_ID_, START_TIME_, END_TIME_, DURATION_, START_USER_ID_, START_ACT_ID_, END_ACT_ID_, SUPER_PROCESS_INSTANCE_ID_, DELETE_REASON_, TENANT_ID_, NAME_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:21:35.829 DEBUG ==> Parameters: 27505(String), 27505(String), null, financialReport:12:27504(String), 2014-09-15 23:21:35.817(Timestamp), null, null, null, theStart(String), null, null, null, (String), null
+2014/09/15 23:21:35.830 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.830 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:21:35.830 DEBUG ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:21:35.832 DEBUG ==> Parameters: 27506(String), financialReport:12:27504(String), 27505(String), 27505(String), theStart(String), null, null, null, startEvent(String), null, 2014-09-15 23:21:35.817(Timestamp), 2014-09-15 23:21:35.824(Timestamp), 7(Long), (String)
+2014/09/15 23:21:35.833 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.833 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:21:35.833 DEBUG ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:21:35.835 DEBUG ==> Parameters: 27507(String), financialReport:12:27504(String), 27505(String), 27505(String), writeReportTask(String), 27508(String), null, Write monthly financial report(String), userTask(String), null, 2014-09-15 23:21:35.824(Timestamp), null, null, (String)
+2014/09/15 23:21:35.836 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.837 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:21:35.837 DEBUG ==>  Preparing: insert into ACT_RU_TASK (ID_, REV_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, PRIORITY_, CREATE_TIME_, OWNER_, ASSIGNEE_, DELEGATION_, EXECUTION_ID_, PROC_INST_ID_, PROC_DEF_ID_, TASK_DEF_KEY_, DUE_DATE_, CATEGORY_, SUSPENSION_STATE_, TENANT_ID_, FORM_KEY_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:21:35.838 DEBUG ==> Parameters: 27508(String), Write monthly financial report(String), null, Write monthly financial report for publication to shareholders.(String), 50(Integer), 2014-09-15 23:21:35.824(Timestamp), null, null, null, 27505(String), 27505(String), financialReport:12:27504(String), writeReportTask(String), null, null, 1(Integer), (String), null
+2014/09/15 23:21:35.839 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.839 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:21:35.843 DEBUG ==>  Preparing: insert into ACT_HI_TASKINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, OWNER_, ASSIGNEE_, START_TIME_, CLAIM_TIME_, END_TIME_, DURATION_, DELETE_REASON_, TASK_DEF_KEY_, FORM_KEY_, PRIORITY_, DUE_DATE_, CATEGORY_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:21:35.844 DEBUG ==> Parameters: 27508(String), financialReport:12:27504(String), 27505(String), 27505(String), Write monthly financial report(String), null, Write monthly financial report for publication to shareholders.(String), null, null, 2014-09-15 23:21:35.824(Timestamp), null, null, null, null, writeReportTask(String), null, 50(Integer), null, null, (String)
+2014/09/15 23:21:35.845 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.846 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:21:35.846 DEBUG ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2014/09/15 23:21:35.846 DEBUG ==> Parameters: 27509(String), candidate(String), null, accountancy(String), 27508(String), null, null
+2014/09/15 23:21:35.847 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.847 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [13742035(com.mysql.jdbc.JDBC4Connection@6e795b)]]
+2014/09/15 23:21:35.847 DEBUG ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2014/09/15 23:21:35.848 DEBUG ==> Parameters: 27509(String), candidate(String), null, accountancy(String), 27508(String), null
+2014/09/15 23:21:35.848 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.898 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@17a7de4]]
+2014/09/15 23:21:35.899 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES inner join ACT_RU_IDENTITYLINK I on I.TASK_ID_ = RES.ID_ WHERE RES.ASSIGNEE_ is null and I.TYPE_ = 'candidate' and ( I.GROUP_ID_ IN ( ? ) ) order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:21:35.899 DEBUG ==> Parameters: accountancy(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:21:35.901 DEBUG <==      Total: 1
+2014/09/15 23:21:35.905 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@17a7de4]]
+2014/09/15 23:21:35.906 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES inner join ACT_RU_IDENTITYLINK I on I.TASK_ID_ = RES.ID_ WHERE RES.ASSIGNEE_ is null and I.TYPE_ = 'candidate' and ( I.GROUP_ID_ IN ( ? ) ) order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:21:35.906 DEBUG ==> Parameters: accountancy(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:21:35.908 DEBUG <==      Total: 1
+2014/09/15 23:21:35.912 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@17a7de4]]
+2014/09/15 23:21:35.912 DEBUG ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2014/09/15 23:21:35.912 DEBUG ==> Parameters: 27508(String)
+2014/09/15 23:21:35.914 DEBUG <==      Total: 1
+2014/09/15 23:21:35.914 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [12433070(com.mysql.jdbc.JDBC4Connection@12478a9)]]
+2014/09/15 23:21:35.914 DEBUG ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2014/09/15 23:21:35.914 DEBUG ==> Parameters: 27508(String)
+2014/09/15 23:21:35.915 DEBUG <==      Total: 1
+2014/09/15 23:21:35.916 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [12433070(com.mysql.jdbc.JDBC4Connection@12478a9)]]
+2014/09/15 23:21:35.916 DEBUG ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2014/09/15 23:21:35.917 DEBUG ==> Parameters: 27505(String)
+2014/09/15 23:21:35.918 DEBUG <==      Total: 1
+2014/09/15 23:21:35.919 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [12433070(com.mysql.jdbc.JDBC4Connection@12478a9)]]
+2014/09/15 23:21:35.919 DEBUG ==>  Preparing: select * from ACT_RU_IDENTITYLINK where PROC_INST_ID_ = ? 
+2014/09/15 23:21:35.919 DEBUG ==> Parameters: 27505(String)
+2014/09/15 23:21:35.919 DEBUG <==      Total: 0
+2014/09/15 23:21:35.920 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [12433070(com.mysql.jdbc.JDBC4Connection@12478a9)]]
+2014/09/15 23:21:35.920 DEBUG ==>  Preparing: select * from ACT_RE_PROCDEF where ID_ = ? 
+2014/09/15 23:21:35.920 DEBUG ==> Parameters: financialReport:12:27504(String)
+2014/09/15 23:21:35.921 DEBUG <==      Total: 1
+2014/09/15 23:21:35.923 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [12433070(com.mysql.jdbc.JDBC4Connection@12478a9)]]
+2014/09/15 23:21:35.923 DEBUG ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:21:35.923 DEBUG ==> Parameters: 27505(String), writeReportTask(String), 1(Integer), 0(Integer)
+2014/09/15 23:21:35.924 DEBUG <==      Total: 1
+2014/09/15 23:21:35.925 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [12433070(com.mysql.jdbc.JDBC4Connection@12478a9)]]
+2014/09/15 23:21:35.925 DEBUG ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2014/09/15 23:21:35.925 DEBUG ==> Parameters: 27510(String), participant(String), fozzie(String), null, null, 27505(String), null
+2014/09/15 23:21:35.925 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.926 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [12433070(com.mysql.jdbc.JDBC4Connection@12478a9)]]
+2014/09/15 23:21:35.926 DEBUG ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2014/09/15 23:21:35.926 DEBUG ==> Parameters: 27510(String), participant(String), fozzie(String), null, null, 27505(String)
+2014/09/15 23:21:35.927 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.927 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [12433070(com.mysql.jdbc.JDBC4Connection@12478a9)]]
+2014/09/15 23:21:35.927 DEBUG ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2014/09/15 23:21:35.927 DEBUG ==> Parameters: 27505(String), fozzie(String), null, null, 27507(String)
+2014/09/15 23:21:35.927 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.928 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [12433070(com.mysql.jdbc.JDBC4Connection@12478a9)]]
+2014/09/15 23:21:35.928 DEBUG ==>  Preparing: update ACT_RU_TASK SET REV_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, PRIORITY_ = ?, CREATE_TIME_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, DELEGATION_ = ?, EXECUTION_ID_ = ?, PROC_DEF_ID_ = ?, DESCRIPTION_ = ?, DUE_DATE_ = ?, CATEGORY_ = ?, SUSPENSION_STATE_ = ?, FORM_KEY_ = ? where ID_= ? and REV_ = ? 
+2014/09/15 23:21:35.929 DEBUG ==> Parameters: 2(Integer), Write monthly financial report(String), null, 50(Integer), 2014-09-15 23:21:35.0(Timestamp), null, fozzie(String), null, 27505(String), financialReport:12:27504(String), Write monthly financial report for publication to shareholders.(String), null, null, 1(Integer), null, 27508(String), 1(Integer)
+2014/09/15 23:21:35.930 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.930 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [12433070(com.mysql.jdbc.JDBC4Connection@12478a9)]]
+2014/09/15 23:21:35.930 DEBUG ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2014/09/15 23:21:35.931 DEBUG ==> Parameters: 27505(String), Write monthly financial report(String), null, Write monthly financial report for publication to shareholders.(String), null, fozzie(String), 2014-09-15 23:21:35.925(Timestamp), null, null, null, writeReportTask(String), null, 50(Integer), null, null, 27508(String)
+2014/09/15 23:21:35.931 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.944 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@17a7de4]]
+2014/09/15 23:21:35.944 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:21:35.945 DEBUG ==> Parameters: fozzie(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:21:35.947 DEBUG <==      Total: 1
+2014/09/15 23:21:35.951 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@17a7de4]]
+2014/09/15 23:21:35.951 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:21:35.952 DEBUG ==> Parameters: fozzie(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:21:35.953 DEBUG <==      Total: 1
+2014/09/15 23:21:35.957 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@17a7de4]]
+2014/09/15 23:21:35.957 DEBUG ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:21:35.957 DEBUG ==> Parameters: fozzie(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:21:35.958 DEBUG <==      Total: 1
+2014/09/15 23:21:35.962 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@17a7de4]]
+2014/09/15 23:21:35.962 DEBUG ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2014/09/15 23:21:35.962 DEBUG ==> Parameters: 27508(String)
+2014/09/15 23:21:35.963 DEBUG <==      Total: 1
+2014/09/15 23:21:35.963 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.963 DEBUG ==>  Preparing: select * from ACT_RE_PROCDEF where ID_ = ? 
+2014/09/15 23:21:35.964 DEBUG ==> Parameters: financialReport:12:27504(String)
+2014/09/15 23:21:35.964 DEBUG <==      Total: 1
+2014/09/15 23:21:35.965 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.965 DEBUG ==>  Preparing: select * from ACT_RU_TASK where PARENT_TASK_ID_ = ? 
+2014/09/15 23:21:35.965 DEBUG ==> Parameters: 27508(String)
+2014/09/15 23:21:35.966 DEBUG <==      Total: 0
+2014/09/15 23:21:35.966 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.966 DEBUG ==>  Preparing: select * from ACT_RU_IDENTITYLINK where TASK_ID_ = ? 
+2014/09/15 23:21:35.966 DEBUG ==> Parameters: 27508(String)
+2014/09/15 23:21:35.967 DEBUG <==      Total: 1
+2014/09/15 23:21:35.968 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.968 DEBUG ==>  Preparing: select * from ACT_RU_VARIABLE where TASK_ID_ = ? 
+2014/09/15 23:21:35.969 DEBUG ==> Parameters: 27508(String)
+2014/09/15 23:21:35.969 DEBUG <==      Total: 0
+2014/09/15 23:21:35.970 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.970 DEBUG ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2014/09/15 23:21:35.970 DEBUG ==> Parameters: 27508(String)
+2014/09/15 23:21:35.971 DEBUG <==      Total: 1
+2014/09/15 23:21:35.972 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.972 DEBUG ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2014/09/15 23:21:35.972 DEBUG ==> Parameters: 27505(String)
+2014/09/15 23:21:35.973 DEBUG <==      Total: 1
+2014/09/15 23:21:35.973 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.973 DEBUG ==>  Preparing: select distinct T.* from ACT_RU_TASK T where T.EXECUTION_ID_ = ? 
+2014/09/15 23:21:35.973 DEBUG ==> Parameters: 27505(String)
+2014/09/15 23:21:35.974 DEBUG <==      Total: 1
+2014/09/15 23:21:35.975 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.975 DEBUG ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:21:35.975 DEBUG ==> Parameters: 27505(String), writeReportTask(String), 1(Integer), 0(Integer)
+2014/09/15 23:21:35.976 DEBUG <==      Total: 1
+2014/09/15 23:21:35.977 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.977 DEBUG ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:21:35.977 DEBUG ==> Parameters: 27511(String), financialReport:12:27504(String), 27505(String), 27505(String), verifyReportTask(String), 27512(String), null, Verify monthly financial report(String), userTask(String), null, 2014-09-15 23:21:35.976(Timestamp), null, null, (String)
+2014/09/15 23:21:35.978 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.978 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.978 DEBUG ==>  Preparing: insert into ACT_RU_TASK (ID_, REV_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, PRIORITY_, CREATE_TIME_, OWNER_, ASSIGNEE_, DELEGATION_, EXECUTION_ID_, PROC_INST_ID_, PROC_DEF_ID_, TASK_DEF_KEY_, DUE_DATE_, CATEGORY_, SUSPENSION_STATE_, TENANT_ID_, FORM_KEY_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:21:35.979 DEBUG ==> Parameters: 27512(String), Verify monthly financial report(String), null, Verify monthly financial report composed by the accountancy department.
+				This financial report is going to be sent to all the company
+				shareholders.(String), 50(Integer), 2014-09-15 23:21:35.976(Timestamp), null, null, null, 27505(String), 27505(String), financialReport:12:27504(String), verifyReportTask(String), null, null, 1(Integer), (String), null
+2014/09/15 23:21:35.979 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.979 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.979 DEBUG ==>  Preparing: insert into ACT_HI_TASKINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, OWNER_, ASSIGNEE_, START_TIME_, CLAIM_TIME_, END_TIME_, DURATION_, DELETE_REASON_, TASK_DEF_KEY_, FORM_KEY_, PRIORITY_, DUE_DATE_, CATEGORY_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2014/09/15 23:21:35.980 DEBUG ==> Parameters: 27512(String), financialReport:12:27504(String), 27505(String), 27505(String), Verify monthly financial report(String), null, Verify monthly financial report composed by the accountancy department.
+				This financial report is going to be sent to all the company
+				shareholders.(String), null, null, 2014-09-15 23:21:35.976(Timestamp), null, null, null, null, verifyReportTask(String), null, 50(Integer), null, null, (String)
+2014/09/15 23:21:35.980 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.980 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.981 DEBUG ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2014/09/15 23:21:35.981 DEBUG ==> Parameters: 27513(String), candidate(String), null, management(String), 27512(String), null, null
+2014/09/15 23:21:35.982 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.982 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.982 DEBUG ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2014/09/15 23:21:35.982 DEBUG ==> Parameters: 27513(String), candidate(String), null, management(String), 27512(String), null
+2014/09/15 23:21:35.983 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.983 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.983 DEBUG ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2014/09/15 23:21:35.983 DEBUG ==> Parameters: 27505(String), fozzie(String), 2014-09-15 23:21:35.976(Timestamp), 976(Long), 27507(String)
+2014/09/15 23:21:35.984 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.984 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.984 DEBUG ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2014/09/15 23:21:35.984 DEBUG ==> Parameters: 27505(String), Write monthly financial report(String), null, Write monthly financial report for publication to shareholders.(String), null, fozzie(String), 2014-09-15 23:21:35.0(Timestamp), 2014-09-15 23:21:35.971(Timestamp), 971(Long), completed(String), writeReportTask(String), null, 50(Integer), null, null, 27508(String)
+2014/09/15 23:21:35.985 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.985 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.985 DEBUG ==>  Preparing: update ACT_RU_EXECUTION set REV_ = ?, BUSINESS_KEY_ = ?, PROC_DEF_ID_ = ?, ACT_ID_ = ?, IS_ACTIVE_ = ?, IS_CONCURRENT_ = ?, IS_SCOPE_ = ?, IS_EVENT_SCOPE_ = ?, PARENT_ID_ = ?, SUPER_EXEC_ = ?, SUSPENSION_STATE_ = ?, CACHED_ENT_STATE_ = ?, NAME_ = ? where ID_ = ? and REV_ = ? 
+2014/09/15 23:21:35.985 DEBUG ==> Parameters: 2(Integer), null, financialReport:12:27504(String), verifyReportTask(String), true(Boolean), false(Boolean), true(Boolean), false(Boolean), null, null, 1(Integer), 2(Integer), null, 27505(String), 1(Integer)
+2014/09/15 23:21:35.986 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.986 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.986 DEBUG ==>  Preparing: delete from ACT_RU_IDENTITYLINK where ID_ = ? 
+2014/09/15 23:21:35.986 DEBUG ==> Parameters: 27509(String)
+2014/09/15 23:21:35.986 DEBUG <==    Updates: 1
+2014/09/15 23:21:35.986 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection [19795503(com.mysql.jdbc.JDBC4Connection@a53564)]]
+2014/09/15 23:21:35.987 DEBUG ==>  Preparing: delete from ACT_RU_TASK where ID_ = ? and REV_ = ? 
+2014/09/15 23:21:35.987 DEBUG ==> Parameters: 27508(String), 2(Integer)
+2014/09/15 23:21:35.987 DEBUG <==    Updates: 1
+2014/09/15 23:21:36.016 DEBUG ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.logicalcobwebs.proxool.ProxoolDataSource@17a7de4]]
+2014/09/15 23:21:36.016 DEBUG ==>  Preparing: select RES.* from ACT_HI_PROCINST RES inner join ACT_RE_PROCDEF DEF on RES.PROC_DEF_ID_ = DEF.ID_ WHERE DEF.KEY_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014/09/15 23:21:36.017 DEBUG ==> Parameters: financialReport(String), 2147483647(Integer), 0(Integer)
+2014/09/15 23:21:36.020 DEBUG <==      Total: 10
+2014/09/15 23:21:36.495 INFO Shutting down 'springDbPool' pool immediately [Shutdown Hook]
+2014/09/15 23:21:36.503 INFO Stopping Prototyper thread
+2014/09/15 23:21:36.503 INFO Stopping HouseKeeper thread

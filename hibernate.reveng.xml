@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-name="ref_role_function" match-catalog="test"></table-filter>
+	<table-filter match-name="tab_function" match-catalog="test"></table-filter>
+	<table-filter match-name="tab_role" match-catalog="test"></table-filter>
+	<table-filter match-name="tab_user" match-catalog="test"></table-filter>
+	<table catalog="test" name="tab_role" class="cn.tj.baseextweb.fw.entity.Role">
+		<column name="rid" property="rid" type="Long"></column>
+		<column name="rname" property="rname"></column>
+		<column name="starttime" property="startTime"></column>
+		<column name="endtime" property="endTime"></column>
+	</table>
+	<table catalog="test" name="tab_user" class="cn.tj.baseextweb.fw.entity.User">
+		<column name="uid" property="uid" type="Long"></column>
+		<column name="username" property="username"></column>
+		<column name="password" property="password"></column>
+		<column name="starttime" property="startTime"></column>
+		<column name="endtime" property="endTime"></column>
+		<column name="rid" property="rid" type="Long"></column>
+	</table>
+	<table catalog="test" name="ref_role_function" class="cn.tj.baseextweb.fw.entity.RefRoleFunction">
+		<column name="rfid" property="rfid" type="Long"></column>
+		<column name="rid" property="rid" type="Long"></column>
+		<column name="fid" property="fid" type="Long"></column>
+	</table>
+	<table catalog="test" name="tab_function" class="cn.tj.baseextweb.fw.entity.Function">
+		<column name="fid" property="fid" type="Long"></column>
+		<column name="fname" property="fname"></column>
+		<column name="forder" property="forder"></column>
+		<column name="furl" property="furl"></column>
+		<column name="level" property="level"></column>
+		<column name="pid" property="pid" type="Long"></column>
+	</table>
+</hibernate-reverse-engineering>

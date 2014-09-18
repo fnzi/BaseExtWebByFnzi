@@ -1,0 +1,11 @@
+/Config.xml
+/applicationContext-test.xml
+/applicationContext.xml
+/cn/
+/db-init.sql
+/groovy/
+/hibernate.cfg.xml
+/jdbc-test.properties
+/jdbc.properties
+/log4j.properties
+/test/
