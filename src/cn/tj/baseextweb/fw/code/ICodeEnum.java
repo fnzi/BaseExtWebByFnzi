@@ -9,9 +9,9 @@ package cn.tj.baseextweb.fw.code;
 public interface ICodeEnum {
 
     /**
-     * @return 返回code值
+     * @return 返回key值
      */
-    public Integer getCode();
+    public String getKey();
 
     /**
      * @return 返回描述值
