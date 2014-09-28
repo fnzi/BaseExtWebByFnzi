@@ -13,7 +13,7 @@ import cn.tj.baseextweb.fw.service.ListService;
 public class GetUsersFromDaoService extends ListService<User> {
 
     @Override
-    public List<User> execute(Map<String, String> param) {
+    public List<User> doExecute(Map<String, Object> param) {
 
         List<User> us = getDao().createCriteria(User.class).add(Restrictions.eq("username", "fnzi")).list();
 

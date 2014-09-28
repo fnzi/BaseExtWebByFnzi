@@ -15,14 +15,14 @@ import cn.tj.baseextweb.fw.service.GridListService;
 public class ListUserService extends GridListService<User> {
 
     @Override
-    public GridList<User> execute(Map<String, String> param) {
+    public GridList<User> doExecute(Map<String, Object> param) {
 
         List<User> us = new ArrayList<User>();
 
-        String name = param.get("username");
-        String pwd = param.get("password");
+        String name = getParam(param, "username");
+        String pwd = getParam(param, "password");
 
-        if (pwd.equals("")) {
+        if (pwd == null || pwd.equals("")) {
             throw new ServiceException("密码不能为空");
         }
 

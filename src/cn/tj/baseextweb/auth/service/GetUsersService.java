@@ -13,11 +13,11 @@ import cn.tj.baseextweb.fw.service.ListService;
 public class GetUsersService extends ListService<User> {
 
     @Override
-    public List<User> execute(Map<String, String> param) {
+    public List<User> doExecute(Map<String, Object> param) {
         List<User> us = new ArrayList<User>();
 
-        String name = param.get("username");
-        String pwd = param.get("password");
+        String name = getParam(param, "username");
+        String pwd = getParam(param, "password");
 
         User u = new User();
         u.setName(name);

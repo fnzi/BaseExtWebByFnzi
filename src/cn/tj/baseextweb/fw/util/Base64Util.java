@@ -1,36 +1,22 @@
 package cn.tj.baseextweb.fw.util;
 
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-
-import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
+import it.sauronsoftware.base64.Base64;
 
 public class Base64Util {
+
+    public static String charset = "utf-8";
 
     /**
      * base64解密
      */
     public static String dec(String target) {
-        String ret = "";
-        try {
-            ret = new String((new BASE64Decoder()).decodeBuffer(target), "UTF-8");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return ret;
+        return Base64.decode(target, charset);
     }
 
     /**
      * base64加密
      */
     public static String enc(String target) {
-        String ret = "";
-        try {
-            ret = (new BASE64Encoder()).encodeBuffer(target.getBytes("UTF-8"));
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return ret;
+        return Base64.encode(target, charset);
     }
 }

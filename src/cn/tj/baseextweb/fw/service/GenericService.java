@@ -10,5 +10,5 @@ package cn.tj.baseextweb.fw.service;
  */
 public interface GenericService<P, R> {
 
-  public abstract R execute(P param);
+    public abstract R execute(P param);
 }

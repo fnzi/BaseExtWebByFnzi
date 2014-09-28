@@ -7,8 +7,6 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
@@ -17,17 +15,17 @@ import cn.tj.baseextweb.fw.bean.ResultMap;
 
 public class ActionSupport {
 
-  protected static final Log logger = LogFactory.getLog(ActionSupport.class);
-
+  public static final String SESSION_KEY = "__session_key__";
+  
   public void setModelMap(ResultMap result, ModelMap model) {
     for (String key : result.keySet()) {
       model.addAttribute(key, result.get(key));
     }
   }
 
-  public Map<String, String> getRequstMap() {
-    Map<String, String> map = new HashMap<String, String>();
-    Enumeration _enum = this.getRequest().getParameterNames();
+  public Map<String, Object> getRequstMap() {
+    Map<String, Object> map = new HashMap<String, Object>();
+    Enumeration<String> _enum = this.getRequest().getParameterNames();
     while (_enum.hasMoreElements()) {
       String paramName = (String) _enum.nextElement();
       String paramValue = this.getRequest().getParameter(paramName);
@@ -35,6 +33,7 @@ public class ActionSupport {
       // 形成键值对应的map
       map.put(paramName, paramValue);
     }
+    map.put(SESSION_KEY, getSession());
     return map;
   }
 

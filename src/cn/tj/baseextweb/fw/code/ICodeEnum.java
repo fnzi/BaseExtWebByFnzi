@@ -17,5 +17,4 @@ public interface ICodeEnum {
      * @return 返回描述值
      */
     public String getDescription();
-
 }

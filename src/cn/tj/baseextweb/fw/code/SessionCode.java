@@ -2,7 +2,7 @@ package cn.tj.baseextweb.fw.code;
 
 public enum SessionCode implements ICodeEnum {
 
-    USER_KEY("__user__", "user in session key");
+    USER_SESSION_KEY("USER_SESSION_KEY", "user in session key");
 
     private String description;
     private String key;
@@ -23,7 +23,7 @@ public enum SessionCode implements ICodeEnum {
     }
 
     public static void main(String[] args) {
-        System.out.println(SessionCode.USER_KEY.getKey());
-        System.out.println(SessionCode.USER_KEY.getDescription());
+        System.out.println(SessionCode.USER_SESSION_KEY.getKey());
+        System.out.println(SessionCode.USER_SESSION_KEY.getDescription());
     }
 }
